@@ -5,9 +5,9 @@ const rutaImagenes = "/imagenes/";
 const piñateria = [
   {
     id: 101,
-    name: "PIÑATAS COLORIDA",
+    name: "PIÑATAS COLORIDAs",
     price: 2000000,
-    image: "piñateriauno.JPEG",
+    image: "piñateriauno.jpeg",
   },
   // Agrega más productos de Piñatería aquí
 ];
