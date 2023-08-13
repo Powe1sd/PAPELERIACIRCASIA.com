@@ -3,7 +3,7 @@ const piñateria = [
     id: 101,
     name: "PIÑATAS COLORIDA",
     price: 20000,
-    image: "piñateriauno.JPEG",
+    image: "chaquetados.jpg",
   },
   { id: 101, name: "Piñata Colorida", price: 2000, image: "piñateriados.JPEG" },
   {
