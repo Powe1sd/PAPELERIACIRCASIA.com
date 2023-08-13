@@ -5,7 +5,7 @@ const rutaImagenes = "/imagenes/";
 const piñateria = [
   {
     id: 101,
-    name: "PIÑATAS COLORIDAs",
+    name: "PIÑATAS ",
     price: 2000000,
     image: "piñateriauno.JPEG",
   },
