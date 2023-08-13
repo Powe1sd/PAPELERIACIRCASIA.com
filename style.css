@@ -118,17 +118,3 @@ body {
   /* Asegurar que esté en la parte superior */
   font-size: 50px;
 }
-
-/* Estilos para las tarjetas alineadas de imajenes */
-/* Estilo para las tarjetas de producto */
-.product-card {
-  border: 9px solid black;
-  color: blackS;
-  background-color: white;
-  padding: 10px;
-  margin: 10px;
-  display: inline-flex;
-  flex-direction: column;
-  background-size: cover; /* Ajusta el tamaño de fondo para cubrir todo el espacio sin deformar */
-  background-position: center; /* Centra la imagen de fondo */
-}

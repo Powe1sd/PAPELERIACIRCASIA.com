@@ -1,50 +1,14 @@
+// Ruta de las imágenes (cambia esto según la ubicación de tu archivo HTML)
+const rutaImagenes = "imagenes/";
+
+// Datos de los productos de Piñatería
 const piñateria = [
   {
     id: 101,
     name: "PIÑATAS COLORIDA",
     price: 20000,
-    image: "chaquetados.jpg",
+    image: "piñateriauno.JPEG",
   },
-  { id: 101, name: "Piñata Colorida", price: 2000, image: "piñateriados.JPEG" },
-  {
-    id: 101,
-    name: "Piñata Colorida",
-    price: 2000,
-    image: "piñateriatres.JPEG",
-  },
-  {
-    id: 101,
-    name: "Piñata Colorida",
-    price: 2000,
-    image: "piñateriacuatro.JPEG",
-  },
-  {
-    id: 101,
-    name: "Piñata Colorida",
-    price: 2000,
-    image: "piñateriacinco.JPEG",
-  },
-  { id: 101, name: "Piñata Colorida", price: 2000, image: "piñateriados.JPEG" },
-  {
-    id: 101,
-    name: "Piñata Colorida",
-    price: 2000,
-    image: "piñateriatres.JPEG",
-  },
-  {
-    id: 101,
-    name: "Piñata Colorida",
-    price: 2000,
-    image: "piñateriacuatro.JPEG",
-  },
-  {
-    id: 101,
-    name: "Piñata Colorida",
-    price: 2000,
-    image: "piñateriacinco.JPEG",
-  },
-  { id: 101, name: "Piñata Colorida", price: 2000, image: "piñateriauno.JPEG" },
-
   // Agrega más productos de Piñatería aquí
 ];
 
@@ -53,7 +17,7 @@ function createProductCard(product) {
   card.classList.add("product-card");
 
   const image = document.createElement("img");
-  image.src = `/imagenes/${product.image}`;
+  image.src = rutaImagenes + product.image; // Utiliza la ruta de las imágenes
   image.alt = product.name;
   card.appendChild(image);
 
@@ -67,8 +31,6 @@ function createProductCard(product) {
 
   return card;
 }
-
-//RUTA DE LAS IMAGENES
 
 function showPiñateria() {
   const piñateriaProductsContainer = document.getElementById("piñaProducts");
