@@ -1,5 +1,5 @@
 // Ruta de las imágenes (cambia esto según la ubicación de tu archivo HTML)
-const rutaImagenes = "/imagenes/";
+const rutaImagenes = "imagenes/";
 
 // Datos de los productos de Piñatería
 const piñateria = [
