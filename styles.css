@@ -43,7 +43,7 @@ header {
 
 .productCard img {
   max-width: 100%; /* Ajustar el tamaño máximo de la imagen */
-  height: 500px; /* Altura fija para todas las imágenes */
+  height: auto; /* Altura automática para adaptarse a diferentes tamaños */
   object-fit: cover; /* Mantener la proporción y recortar la imagen */
 }
 
