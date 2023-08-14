@@ -172,7 +172,7 @@ header {
 /* Barra de despliegue de productos */
 /* Estilos para el botón de despliegue */
 .despliegue {
-  position: fixed;
+  position: relative;
   display: inline-block;
 }
 
@@ -182,9 +182,9 @@ header {
   border: none;
   cursor: pointer;
   position: fixed;
-  font-size: 18px;
+  font-size: 40px;
   padding: 10px 20px;
-  transition: background-color 0.3s ease;
+  margin-top: -101px;
 }
 
 #productos-btn:hover {
@@ -206,6 +206,7 @@ header {
   opacity: 0;
   transform: translateY(-10px);
   transition: opacity 0.3s ease, transform 0.3s ease;
+  margin-top: -40px;
 }
 
 .despliegue:hover .productos-desplegables {
@@ -223,11 +224,10 @@ header {
 }
 
 .productos-desplegables a:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #007bff;
 }
 
 /* BOTON INICIO DE RETOCEDER */
-
 .button-container {
   margin-top: 20px;
 }
@@ -247,4 +247,3 @@ header {
   width: 20%;
   position: fixed;
 }
-
