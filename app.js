@@ -161,7 +161,7 @@ function createProductCard(product) {
   const productCard = document.createElement("div");
   productCard.className = "productCard";
   productCard.innerHTML = `
-      <img src="/imagenes/papeleria/${product.image}"alt="${product.name}">
+      <img src="imagenes/papeleria/${product.image}"alt="${product.name}">
       <h3>${product.name}</h3>
       <p>Precio: $${product.price}</p>
      
