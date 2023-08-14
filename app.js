@@ -1,15 +1,28 @@
 // Datos simulados de productos para sacos y camisas
 const sacos = [
-  { id: 101, name: "Saco Clásico", price: 9000, image: "piñauno.jpg" },
-  { id: 102, name: "Saco de Lana", price: 8000, image: "piñados.jpeg" },
-  { id: 102, name: "Saco de Lana", price: 8000, image: "piñatres.jpeg" },
-  { id: 102, name: "Saco de Lana", price: 8000, image: "piñacuatro.jpeg" },
-  { id: 101, name: "Saco Clásico", price: 80000000, image: "piñacinco.jpeg" },
-  { id: 102, name: "Saco de Lana", price: 8000, image: "piñaseis.jpeg" },
-  { id: 102, name: "Saco de Lana", price: 8000, image: "sacotres.jpg" },
-  { id: 102, name: "Saco de Lana", price: 8000, image: "saco.jpg" },
-  { id: 102, name: "Saco de Lana", price: 8000, image: "saco.jpg" },
-  { id: 102, name: "Saco de Lana", price: 8000, image: "saco.jpg" },
+  { id: 101, name: "PIÑATERIA", price: 0, image: "piñauno.jpg" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñados.jpeg" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñatres.jpeg" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñacuatro.jpeg" },
+  { id: 101, name: "PIÑATERIA", price: 0, image: "piñacinco.jpeg" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñaseis.jpeg" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñasiete.jpeg" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñaocho.jpeg" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñanueve.jpeg" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñadies.jpeg" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñaonce.jpeg" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñadoce.jpeg" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñatrece.jpeg" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñacatorce.jpeg" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñaquince.jpeg" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñadieciceis.jpeg" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñadieciciete.jpeg" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñadieciocho.jpeg" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñadiecinueve.png" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñaveinte.png" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñaveintiuno.png" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñaveintidos.png" },
+  { id: 102, name: "PIÑATERIA", price: 0, image: "piñaventitres.png" },
 
   // Agrega más sacos aquí
 ];
@@ -107,16 +120,6 @@ function showSacos() {
   });
 }
 
-/* NUEVA SECCION ARREGLANDO */
-// app.js
-// app.js
-
-// app.js
-
-// Aquí puedes agregar más lógica o funciones si es necesario
-// ...
-
-// Función para mostrar los productos de camisas
 function showCamisas() {
   camisaProductsContainer.innerHTML = "";
   camisas.forEach((product) => {
@@ -171,41 +174,6 @@ function createProductCard(product) {
   return productCard;
 }
 
-// app.js
-
-// Función para mostrar u ocultar la barra lateral
-function toggleSidebar() {
-  const sidebar = document.getElementById("sidebar");
-  sidebar.classList.toggle("active");
-}
-
-// Asignar la función al botón o enlace que activa la barra lateral
-const sidebarToggleBtn = document.getElementById("sidebarToggleBtn");
-sidebarToggleBtn.addEventListener("click", toggleSidebar);
-
-// app.js
-const sidebar = document.getElementById("sidebar");
-
-function toggleCategory(categoryId) {
-  const categorySection = document.getElementById(categoryId);
-  categorySection.classList.toggle("hidden");
-}
-
-sidebarToggleBtn.addEventListener("click", () => {
-  sidebar.classList.toggle("hidden");
-});
-
-// app.js
-
-function toggleCategory(categoryId) {
-  const categorySection = document.getElementById(categoryId);
-  categorySection.classList.toggle("hidden");
-}
-
-sidebarToggleBtn.addEventListener("click", () => {
-  sidebar.classList.toggle("hidden");
-});
-
 // Mostrar los productos al cargar la página
 showSacos();
 showCamisas();
@@ -213,37 +181,3 @@ showMugs();
 showToallas();
 showIndumentaria();
 showChaleco();
-
-/* Seccion de la barra lateral  */
-
-//BOTOM DE CONTACTO
-// app.js
-
-// Obtener referencias a los elementos del DOM
-const contactoVentaBtn = document.getElementById("contactoVentaBtn");
-const contactoVentaMenu = document.getElementById("contactoVentaMenu");
-
-// Función para mostrar u ocultar el menú de contacto
-function toggleContactoVentaMenu() {
-  contactoVentaMenu.classList.toggle("hidden");
-}
-
-// Agregar el evento click al botón "Contacto de Venta"
-contactoVentaBtn.addEventListener("click", toggleContactoVentaMenu);
-
-/* Ocultar categorias */
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function () {
-  var currentScrollPos = window.pageYOffset;
-  var categorias = document.querySelector(".categorias");
-  if (prevScrollpos > currentScrollPos) {
-    categorias.classList.remove(
-      "ocultar"
-    ); /* Si se desplaza hacia arriba, mostramos la barra */
-  } else {
-    categorias.classList.add(
-      "ocultar"
-    ); /* Si se desplaza hacia abajo, ocultamos la barra */
-  }
-  prevScrollpos = currentScrollPos;
-};
