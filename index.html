@@ -2,88 +2,180 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>PAPELERIA</title>
+    <title>Tienda de Ropa</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
   </head>
   <body>
-    <h1 class="papeleria">PAPELERIA</h1>
-    <p class="papeleria2">Papelería Ecológica y Sostenible.</p>
-
-    <!-- Boton papeleria -->
-    <div class="enlaces-importantes">
-      <button id="productos-btn">Productos</button>
-      <div class="productos-desplegables">
-        <a href="piñateria.html">Piñatería</a>
-        <a href="#">Papelería</a>
-        <a href="#">Anchetas</a>
-        <a href="#">Desayunos Sorpresa</a>
-        <a href="#">mas</a>
-        <a href="#">platos</a>
-        <a href="">ATRAS</a>
-      </div>
-    </div>
+      
+    <header>
+      <h1 class="nombre">PAPELERIA</h1>
+    </header>
 
 
 
-
-
-    <h2 class="secpro">CAMISAS</h2>
-    <div class="categorySection">
-      <div class="productSection" id="camisaProducts">
-    </div>
-
-
-
-
+    <button id="sidebarToggleBtn" class="categorias">CATEGORIAS</button>
 
     
-    <h2 class="secpro">papeleria</h2>
-    <div class="categorySection">
-      <div class="productSection" id="camisaProducts">
+    <!-- Iconos de whaapp -->    
+    <div class="whatsapp-icon">
+      <a href="https://wa.me/+3108337837" target="_blank" title="Contáctame por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
     </div>
+    
 
 
 
-
-
-    <h2 class="secpro">Anchetas</h2>
-    <h2 class="secpro">Desayunos sorpresas</h2>
-    <h2 class="secpro">mas</h2>
-    <h2 class="secpro">Platos</h2>
-    <h2 class="secpro">Producsto uno</h2>
-
-    <!-- Seccion de contacto -->
-    <section class="seccion-contacto">
-      <div class="contacto-info">
-        <h2 class="seccion">Contacto</h2>
-        <p class="seccion">Dirección: Calle Principal, Ciudad</p>
-        <p class="seccion">Teléfono: (123) 456-7890</p>
-      </div>
-      <div class="enlaces-importantes">
-        <a class="seccion" href="#">Política de Privacidad</a>
-        <a class="seccion" href="#">Información Adicional</a>
-      </div>
-    </section>
-
-    <div class="container mt-5">
-      <div class="whatsapp-btn">
-        <a
-          href="https://wa.me/57?text=Hola,%20quiero%20más%20información"
-          target="_blank"
-          class="btn btn-success"
-        >
-          <i class="fab fa-whatsapp"></i> Contacto por WhatsApp
-        </a>
-      </div>
+    <!-- Barra de informacion -->
+    <div class="moving-info">
+      Una marca versatil que ofrece la elaboración de prendas perzonalizadas, asi como sus servicios de bordados e impresiones graficas en telas y tazas
     </div>
+    <!-- Asegúrate de incluir este script en la sección <body> o al final del archivo HTML -->
 
+<script>
+  // Función para cambiar el mensaje en la sección
+  function changeMessage() {
+    let randomIndex = Math.floor(Math.random() * messages.length);
+    infoMessage.textContent = messages[randomIndex];
+  }
+
+  // Cambiar el mensaje cada 3 segundos (3000 milisegundos)
+  setInterval(changeMessage, 6000);
+</script><br>
+
+
+
+
+    <!-- Contenedor de varias secciones: camisas, toallas, etc. -->
+    <h2 class="sacos">PIÑATERIA</h2>
+        <div class="productSection" id="sacoProducts">
+      </div>
+      <br /><br /><br />
+
+
+
+
+      <h2 class="camisas">ANCHETAS</h2>
+      <div class="categorySection">
+        <div class="productSection" id="camisaProducts">
+      </div>
+
+
+      <br /><br /><br />
+
+      <div class="categorySection">
+        <h2 class="mugs">DESAYUNOS SORPRESAS</h2>
+        <div class="productSection" id="mugsProducts">
+          <!-- Aquí se mostrarán los mugs personalizados -->
+        </div>
+      </div>
+      <br /><br /><br />
+
+     
+    <!-- Sección de la barra lateral -->
+    <div class="sidebar" id="sidebar">
+      <h2>CATEGORIAS</h2>
+          
+      <ol>
+    
+          <li>
+            <a
+              class="seccion"
+              href="buzos.html"
+              onclick="toggleCategory('sacoProducts')"
+            >
+              BUZOS
+            </a>
+          </li><br><br>
+         
+
+
+          <ol>
+    
+            <li>
+              <a
+                class="seccion"
+                href="camisas.html"
+                onclick="toggleCategory('camisaProducts')"
+              >
+                CAMISAS
+              </a>
+            </li>        
+      
+            <!-- ESTA LINEA DE CODIGO NO SIRVE -->
+          <a class="seccion2" href="camisas.html" onclick="toggleCategory('camisaProducts')">CAMISAS</a></li><li>  
+         
+
+            <a
+            class="seccion"
+            href="mugs.html"
+            onclick="toggleCategory('mugsProducts')"
+          >
+            MUGS PERSONALIZADOS
+          </a>
+        </li>
+        <li>
+          <a
+            class="seccion"
+            href="chalecos.html"
+            onclick="toggleCategory('toallasProducts')"
+            >TOALLAS</a
+          >
+        </li>
+        <li><br><br>
+          <a
+            class="seccion"
+            href="indumentaria.html"
+            onclick="toggleCategory('indumentariaProducts')"
+          >
+            INDUMENTARIA Empresarial
+          </a>
+        </li>
+        <li><br><br>
+          <a
+            class="seccion"
+            href="chalecoempresarial.html"
+            onclick="toggleCategory('chalecoProducts')"
+          >
+            CHALECOS EMPRESARIAL
+          </a>
+        </li><br><br>
+      </ol>
+    </div>
+    <div class="content">
+      <!-- Aquí se mostrarán los detalles de las categorías -->
+    </div>
     <script src="app.js"></script>
-    <script src="imajenes.js"></script> 
+    <scrip src="app2.js"></scrip>
   </body>
+
+
+
+  <!-- Informacion de Contacto -->
+  <div class="info-section">
+    <h2>Información</h2>
+    <ul>
+      <li><a href="#">Política de Privacidad</a></li><br>
+      <li><a href="#">Términos y Condiciones</a></li><br>
+      <li><a href="#">Política de Cambios y Garantías</a></li><br>
+      <li><a href="#">Política de reembolso</a></li><br>
+      <li><a href="#">Acerca de nosotros</a></li><br>
+      <li><a href="#">Encuéntranos en: Armenia Quindio</a></li><br>
+      <li><a href="#">Acerca de nosotros</a></li><br>
+      <li><a href="#">Tel:3108337837
+      </a></li><br>
+
+
+    </ul>
+
+    <h2 class="info-section">Conócenos:</h2>
+    <p>Encuéntranos en: Armenia Quindio ###</p>
+    <p>Tel:###############
+</p>
+  </div>
+
+
 </html>
