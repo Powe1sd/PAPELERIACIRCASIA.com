@@ -172,7 +172,7 @@ header {
 /* Barra de despliegue de productos */
 /* Estilos para el botón de despliegue */
 .despliegue {
-  position: relative;
+  position: fixed;
   display: inline-block;
 }
 
