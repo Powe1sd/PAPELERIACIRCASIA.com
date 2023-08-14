@@ -1,4 +1,30 @@
 // Datos simulados de productos para sacos y camisas
+
+//SECCION DE LA BARRA DE DESPLIEGUE DE PRODUCTOS
+
+document.addEventListener("DOMContentLoaded", function () {
+  var productosBtn = document.getElementById("productos-btn");
+  var productosDesplegables = document.querySelector(".productos-desplegables");
+
+  productosBtn.addEventListener("click", function (event) {
+    event.stopPropagation();
+    if (productosDesplegables.style.display === "none") {
+      productosDesplegables.style.display = "block";
+    } else {
+      productosDesplegables.style.display = "none";
+    }
+  });
+
+  document.addEventListener("click", function (event) {
+    if (
+      !productosDesplegables.contains(event.target) &&
+      event.target !== productosBtn
+    ) {
+      productosDesplegables.style.display = "none";
+    }
+  });
+});
+
 const sacos = [
   { id: 101, name: "PIÑATERIA", price: 0, image: "piñauno.jpg" },
   { id: 102, name: "PIÑATERIA", price: 0, image: "piñados.jpeg" },

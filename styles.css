@@ -3,16 +3,56 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #154360;
+  background-color: #f4f4f4;
 }
 
 header {
-  background-color: black;
+  background-color: #007bff;
   color: white;
   padding: 10px;
   text-align: center;
+}
+
+/* BOTON PRODUCTOS */
+.productos-desplegables {
+  /* Tus estilos actuales */
+}
+
+.enlaces-importantes button {
+  /* Tus estilos actuales */
+}
+
+.enlaces-importantes button:hover {
+  /* Tus estilos actuales */
+}
+
+.enlaces-importantes a {
+  /* Tus estilos actuales */
+}
+
+/* Seccion de contacto lo ultimo */
+.seccion-contacto {
+  /* Tus estilos actuales */
+}
+
+.contacto-info h2 {
+  /* Tus estilos actuales */
+}
+
+.enlaces-importantes a {
+  /* Tus estilos actuales */
+}
+
+.enlaces-importantes a:hover {
+  /* Tus estilos actuales */
+}
+
+.secpro {
+  /* Tus estilos actuales */
+}
+
+.produdes {
+  /* Tus estilos actuales */
 }
 
 /* Estilos para los contenedores de productos */
@@ -24,9 +64,9 @@ header {
 #chalecoProducts {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; /* Distribuir los productos equitativamente */
-  margin: 20px auto; /* Espaciado y centrado */
-  max-width: 1200px; /* Limitar el ancho para evitar que se extiendan demasiado */
+  justify-content: space-around;
+  margin: 20px auto;
+  max-width: 1200px;
 }
 
 /* Ajustar el estilo de los productos */
@@ -35,16 +75,16 @@ header {
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
-  width: calc(33.33% - 20px); /* Calcula el ancho de cada tarjeta */
-  box-sizing: border-box; /* Incluye el borde y el padding en el ancho total */
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
   background-color: white;
   text-align: center;
 }
 
 .productCard img {
-  max-width: 100%; /* Ajustar el tamaño máximo de la imagen */
-  height: auto; /* Altura automática para adaptarse a diferentes tamaños */
-  object-fit: cover; /* Mantener la proporción y recortar la imagen */
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .productCard h3 {
@@ -59,40 +99,129 @@ header {
 .indumentaria,
 .chaleco {
   text-align: center;
-  color: #ffe400;
-  background-color: blue; /* Cambia el color aquí al que desees */
-  padding: 10px; /* Agrega un espacio interno para que se vea mejor */
-  /* Puedes agregar otros estilos según tus necesidades */
-}
-
-.nombre {
-  color: #ccc;
+  color: #007bff;
+  background-color: #f4f4f4;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 2px solid #007bff;
 }
 
 /* Estilos para la barra lateral */
 #sidebar {
-  width: 250px;
-  position: fixed;
-  top: 0;
-  left: -250px;
-  height: 100%;
-  background-color: #333;
-  transition: left 0.3s;
-}
-
-#sidebar.active {
-  left: 0;
+  /* Tus estilos actuales */
 }
 
 #sidebarToggleBtn {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  cursor: pointer;
-  z-index: 1001;
-  color: white;
+  /* Tus estilos actuales */
 }
 
-#sidebarToggleBtn i {
-  font-size: 20px;
+/* Estilos para el botón de WhatsApp */
+.whatsapp-btn {
+  position: fixed;
+  margin-top: 320px;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  z-index: 9999;
+  font-size: 50px;
+}
+
+.whatsapp-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.whatsapp-link:hover {
+  background-color: darkgreen;
+}
+
+.seccion-contacto {
+  margin: 0;
+  padding: 0;
+  margin-top: 980px;
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+.contacto-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.enlaces-importantes a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.enlaces-importantes a:hover {
+  text-decoration: underline;
+}
+.seccion {
+  text-align: center;
+}
+
+/* Barra de despliegue de productos */
+/* Estilos para el botón de despliegue */
+.despliegue {
+  position: relative;
+  display: inline-block;
+}
+
+#productos-btn {
+  background-color: blue;
+  color: black;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+#productos-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Estilos para el menú desplegable */
+.productos-desplegables {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+  width: 200px;
+  z-index: 1;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.despliegue:hover .productos-desplegables {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.productos-desplegables a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.productos-desplegables a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
