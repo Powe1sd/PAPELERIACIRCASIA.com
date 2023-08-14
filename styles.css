@@ -177,8 +177,8 @@ header {
 }
 
 #productos-btn {
-  background-color: blue;
-  color: black;
+  background-color: black;
+  color: aliceblue;
   border: none;
   cursor: pointer;
   position: fixed;

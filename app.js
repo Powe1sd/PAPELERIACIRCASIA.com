@@ -54,7 +54,7 @@ const sacos = [
 ];
 
 const camisas = [
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "piñaquince.jpeg" },
   { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
   { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
   { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
