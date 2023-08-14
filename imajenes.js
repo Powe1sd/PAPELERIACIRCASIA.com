@@ -1,62 +1,48 @@
-// Ruta de las imágenes (cambia esto según la ubicación de tu archivo HTML)
-const rutaImagenes = "imagenes/";
+// Datos simulados de productos para sacos y camisas
 
-// Datos de los productos de Piñatería
-const piñateria = [
-  {
-    id: 101,
-    name: "PIÑATAS ",
-    price: 2000000,
-    image: "piñauno.JPG",
-  },
-  {
-    id: 101,
-    name: "PIÑATAS COLORIDAs",
-    price: 2000000,
-    image: "piñados.JPEG",
-  },
-  {
-    id: 101,
-    name: "PIÑATAS COLORIDAs",
-    price: 2000000,
-    image: "piñateriados.jpeg",
-  },
-  {
-    id: 101,
-    name: "PIÑATAS COLORIDAs",
-    price: 2000000,
-    image: "piñateriados.jpeg",
-  },
-  // Agrega más productos de Piñatería aquí
+const camisas = [
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "piñados.jpeg" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "piñauno.jpg" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
+
+  // Agrega más camisas aquí
 ];
 
-function createProductCard(product) {
-  const card = document.createElement("div");
-  card.classList.add("product-card");
+const camisaProductsContainer = document.getElementById("camisaProducts");
+("indumentariaProducts");
 
-  const image = document.createElement("img");
-  image.src = rutaImagenes + product.image; // Utiliza la ruta de las imágenes
-  image.alt = product.name;
-  card.appendChild(image);
-
-  const name = document.createElement("p");
-  name.textContent = product.name;
-  card.appendChild(name);
-
-  const price = document.createElement("p");
-  price.textContent = `$ ${product.price}`;
-  card.appendChild(price);
-
-  return card;
-}
-
-function showPiñateria() {
-  const piñateriaProductsContainer = document.getElementById("piñaProducts");
-  piñateriaProductsContainer.innerHTML = "";
-  piñateria.forEach((product) => {
+// Función para mostrar los productos de camisas
+function showCamisas() {
+  camisaProductsContainer.innerHTML = "";
+  camisas.forEach((product) => {
     const productCard = createProductCard(product);
-    piñateriaProductsContainer.appendChild(productCard);
+    camisaProductsContainer.appendChild(productCard);
   });
 }
 
-showPiñateria();
+//RUTA DE LAS IMAGENES
+function createProductCard(product) {
+  const productCard = document.createElement("div");
+  productCard.className = "productCard";
+  productCard.innerHTML = `
+      <img src="/imagenes/${product.image}"alt="${product.name}">
+      <h3>${product.name}</h3>
+      <p>Precio: $${product.price}</p>
+     
+      <div class="productDetails" id="details-${product.id}">
+      </div>
+    `;
+  return productCard;
+}
+
+// app.js
+
+// Mostrar los productos al cargar la página
+showCamisas();
