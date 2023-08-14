@@ -233,6 +233,10 @@ header {
   color: white;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
 }
 
 .productos-desplegables a:hover {
@@ -246,7 +250,6 @@ header {
 
 .button {
   text-align: center;
-  display: inline-block;
   padding: 10px 20px;
   background-color: red; /* Cambia el color de fondo a tu preferencia */
   color: white; /* Cambia el color del texto a tu preferencia */
@@ -254,8 +257,7 @@ header {
   border-radius: 5px;
   text-decoration: none;
   font-size: 25px;
+  width: 20%;
   cursor: pointer;
-  bottom: 50px;
-  width: 50%;
   position: fixed;
 }
