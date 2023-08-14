@@ -71,18 +71,22 @@ header {
 
 /* Ajustar el estilo de los productos */
 .productCard {
-  border: 6px solid black;
-  border-radius: 5px;
+  border: 8px solid green;
+  border-radius: 8px;
   padding: 10px;
   margin: 10px;
   width: calc(33.33% - 20px);
   box-sizing: border-box;
   background-color: white;
   text-align: center;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
 
 .productCard img {
-  max-width: 100%;
+  max-width: 102%;
   height: auto;
   object-fit: cover;
 }
@@ -119,12 +123,16 @@ header {
 /* Estilos para el botón de WhatsApp */
 .whatsapp-btn {
   position: fixed;
-  margin-top: 320px;
+  margin-top: 315px;
   top: 50%;
   right: 0;
   transform: translate(0, -50%);
   z-index: 9999;
-  font-size: 50px;
+  font-size: 30px;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
 }
 
 .whatsapp-link {
@@ -132,9 +140,13 @@ header {
   padding: 10px 20px;
   background-color: green;
   color: white;
+  font-size: 30px; /* Aquí ya estás estableciendo el tamaño */
   text-decoration: none;
   border-radius: 5px;
-  font-size: 18px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .whatsapp-link:hover {
@@ -177,18 +189,14 @@ header {
 }
 
 #productos-btn {
-  background-color: black;
-  color: aliceblue;
+  background-color: green;
+  color: black;
   border: none;
   cursor: pointer;
   position: fixed;
   font-size: 40px;
   padding: 10px 20px;
   margin-top: -101px;
-}
-
-#productos-btn:hover {
-  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Estilos para el menú desplegable */
@@ -207,6 +215,10 @@ header {
   transform: translateY(-10px);
   transition: opacity 0.3s ease, transform 0.3s ease;
   margin-top: -40px;
+  -webkit-transition: opacity 0.3s ease, transform 0.3s ease;
+  -moz-transition: opacity 0.3s ease, transform 0.3s ease;
+  -ms-transition: opacity 0.3s ease, transform 0.3s ease;
+  -o-transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .despliegue:hover .productos-desplegables {
@@ -241,9 +253,9 @@ header {
   border: none;
   border-radius: 5px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 25px;
   cursor: pointer;
-  bottom: 30px;
-  width: 20%;
+  bottom: 50px;
+  width: 50%;
   position: fixed;
 }
