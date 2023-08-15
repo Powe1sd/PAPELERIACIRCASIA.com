@@ -95,20 +95,12 @@ header {
   object-fit: cover;
 }
 
-/* Ajusta el tamaño de las imágenes en pantallas más pequeñas */
-@media (max-width: 768px) {
-  .productCard {
-    width: 100%; /* Ocupa todo el ancho en dispositivos móviles */
-  }
-
-  .productCard img {
-    max-width: 100%; /* Ajusta el ancho de la imagen */
-    height: 200px; /* Establece una altura fija para las imágenes en dispositivos móviles */
-    object-fit: cover;
-  }
+.productCard img {
+  max-width: 100%; /* El ancho máximo será el 100% del contenedor */
+  height: auto; /* La altura se ajustará automáticamente */
+  object-fit: cover;
 }
 
-/* Diferente */
 .productCard h3 {
   margin: 20px 0;
 }
@@ -144,18 +136,27 @@ header {
 }
 
 /* Estilos para el botón de WhatsApp */
+
 .whatsapp-btn {
   position: fixed;
-  margin-top: 315px;
-  top: 50%;
-  right: 0;
-  transform: translate(0, -50%);
-  z-index: 9999;
   font-size: 30px;
-  -webkit-transform: translate(0, -50%);
-  -moz-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  -o-transform: translate(0, -50%);
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  right: 0;
+  bottom: 20px; /* Ajusta la distancia desde abajo según tus preferencias */
+  transform: translate(0, 0);
+  z-index: 9999;
+  cursor: pointer;
+}
+
+/* Ajustar el botón en pantallas más pequeñas */
+@media (max-width: 768px) {
+  .whatsapp-btn {
+    bottom: 10px;
+    padding: 8px 16px;
+  }
 }
 
 .whatsapp-link {
