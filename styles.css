@@ -87,7 +87,7 @@ header {
 }
 
 .productCard img {
-  max-width: 102%;
+  max-width: 100%;
   height: auto;
   object-fit: cover;
   width: 400px; /* Ajusta el ancho deseado */
@@ -97,12 +97,12 @@ header {
 
 .productCard img {
   max-width: 100%; /* El ancho máximo será el 100% del contenedor */
-  height: auto; /* La altura se ajustará automáticamente */
+  height: 90%; /* La altura se ajustará automáticamente */
   object-fit: cover;
 }
 
 .productCard h3 {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .despliegue {
