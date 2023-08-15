@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+//SECCION DE DESAYUNOS Y ANCHETAS
 const sacos = [
   { id: 101, name: "Ancheta", price: 40000, image: "piñauno.jpg" },
   { id: 102, name: "Ancheta", price: 20000, image: "piñados.jpeg" },
@@ -53,13 +54,14 @@ const sacos = [
   // Agrega más sacos aquí
 ];
 
+//SECCION DE PELUCHES
 const camisas = [
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "piñaquince.jpeg" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "peludos.jpg" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "peluuno.jpg" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "pelutres.jpg" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "pelucuaatro.jpg" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "pelucinco.jpg" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "peluseis.jpg" },
   { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
   { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
   { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
