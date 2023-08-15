@@ -158,7 +158,9 @@ header {
 /* Ajustar el botón en pantallas más pequeñas */
 @media (max-width: 768px) {
   .whatsapp-btn {
-    bottom: 5px;
+    width: 50%;
+    height: 9%;
+    bottom: 2px;
     padding: 2px 2px;
   }
 }
