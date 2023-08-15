@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var productosBtn = document.getElementById("productos-btn");
   var productosDesplegables = document.querySelector(".productos-desplegables");
 
-  productosBtn.addEventListener("click", function (event) {
+  productosBtn.addEventListener("touchstart", function (event) {
     event.stopPropagation();
     if (productosDesplegables.style.display === "none") {
       productosDesplegables.style.display = "block";
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  document.addEventListener("click", function (event) {
+  document.addEventListener("touchstart", function (event) {
     if (
       !productosDesplegables.contains(event.target) &&
       event.target !== productosBtn
