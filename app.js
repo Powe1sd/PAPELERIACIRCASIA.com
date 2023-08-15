@@ -25,6 +25,14 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+//Solucion de click de boton categorias
+document
+  .querySelector("#productos-btn")
+  .addEventListener("touchstart", function (event) {
+    event.preventDefault(); // Evita que el enlace se active en el primer toque
+    // Agrega el código para desplegar las secciones aquí
+  });
+
 const sacos = [
   { id: 101, name: "Ancheta", price: 40000, image: "piñauno.jpg" },
   { id: 102, name: "Ancheta", price: 20000, image: "piñados.jpeg" },
