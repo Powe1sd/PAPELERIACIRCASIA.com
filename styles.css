@@ -72,7 +72,7 @@ header {
 
 /* Ajustar el estilo de las CATEGORIAS*/
 .productCard {
-  border: 7px solid green;
+  border: 9px solid green;
   border-radius: 8px;
   padding: 10px;
   margin: 10px;
@@ -90,10 +90,13 @@ header {
   max-width: 102%;
   height: auto;
   object-fit: cover;
+  width: 400px; /* Ajusta el ancho deseado */
+  height: 400px; /* Ajusta la altura deseada */
+  object-fit: cover;
 }
 
 .productCard h3 {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .despliegue {
