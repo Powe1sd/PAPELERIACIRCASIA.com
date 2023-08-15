@@ -70,6 +70,7 @@ const camisas = [
   // Agrega más camisas aquí
 ];
 
+// SECCION PIÑATERIA
 const mugs = [
   { id: 201, name: "Camisa Blanca", price: 8000, image: "posillo.jpg" },
   { id: 202, name: "Camisa a Rayas", price: 8000, image: "posillotres.jpg" },

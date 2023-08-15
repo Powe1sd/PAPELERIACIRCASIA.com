@@ -72,7 +72,7 @@ header {
 
 /* Ajustar el estilo de las CATEGORIAS*/
 .productCard {
-  border: 10px solid blue;
+  border: 8px solid blue;
   border-radius: 4px;
   padding: 10px;
   margin: 10px;
@@ -278,4 +278,10 @@ header {
   width: 20%;
   cursor: pointer;
   position: fixed;
+}
+
+/* Ocultar secciones */
+/* Agrega una clase de ocultar para la sección de desayunos sorpresa */
+.desayunos-sorpresa {
+  display: none;
 }
