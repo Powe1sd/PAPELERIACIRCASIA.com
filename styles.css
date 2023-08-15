@@ -11,7 +11,7 @@ header {
   color: white;
   padding: 10px;
   text-align: center;
-  margin-top: 152px;
+  margin-top: 100px;
 }
 
 /* BOTON PRODUCTOS */
@@ -70,9 +70,9 @@ header {
   max-width: 1200px;
 }
 
-/* Ajustar el estilo de los productos */
+/* Ajustar el estilo de las CATEGORIAS*/
 .productCard {
-  border: 8px solid green;
+  border: 7px solid green;
   border-radius: 8px;
   padding: 10px;
   margin: 10px;
@@ -96,6 +96,11 @@ header {
   margin: 10px 0;
 }
 
+.despliegue {
+  position: fixed;
+  display: inline-block;
+  margin-top: -200px;
+}
 /* Estilos para las secciones de categorías */
 .sacos,
 .camisas,
@@ -182,12 +187,7 @@ header {
   text-align: center;
 }
 
-/* Barra de despliegue de productos */
 /* Estilos para el botón de despliegue */
-.despliegue {
-  position: fixed;
-  display: inline-block;
-}
 
 #productos-btn {
   background-color: green;
@@ -197,14 +197,13 @@ header {
   position: fixed;
   font-size: 40px;
   padding: 10px 20px;
-  margin-top: -250px;
 }
 
 /* Estilos para el menú desplegable */
 .productos-desplegables {
   display: none;
   position: absolute;
-  top: 100%;
+  top: -80%;
   left: 0;
   background-color: slategrey;
   border-radius: 5px;
@@ -215,11 +214,7 @@ header {
   opacity: 0;
   transform: translateY(-10px);
   transition: opacity 0.3s ease, transform 0.3s ease;
-  margin-top: -40px;
-  -webkit-transition: opacity 0.3s ease, transform 0.3s ease;
-  -moz-transition: opacity 0.3s ease, transform 0.3s ease;
-  -ms-transition: opacity 0.3s ease, transform 0.3s ease;
-  -o-transition: opacity 0.3s ease, transform 0.3s ease;
+  margin-top: 65px;
 }
 
 .despliegue:hover .productos-desplegables {
