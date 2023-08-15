@@ -98,7 +98,7 @@ header {
 /* Dieseño responsivo */
 @media (max-width: 768px) {
   .productCard img {
-    max-width: 100%;
+    max-width: 200%;
     max-height: 200px; /* Ajusta la altura deseada en dispositivos móviles */
     object-fit: contain; /* Cambia a "contain" para asegurarte de que toda la imagen sea visible */
   }
