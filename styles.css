@@ -107,7 +107,6 @@ header {
 
 .despliegue {
   position: fixed;
-  display: inline-block;
   margin-top: -200px;
 }
 /* Estilos para las secciones de categorías */
@@ -154,8 +153,8 @@ header {
 /* Ajustar el botón en pantallas más pequeñas */
 @media (max-width: 768px) {
   .whatsapp-btn {
-    bottom: 10px;
-    padding: 8px 16px;
+    bottom: 5px;
+    padding: 4px 160px;
   }
 }
 
@@ -209,7 +208,7 @@ header {
 
 #productos-btn {
   background-color: green;
-  color: black;
+  color: #f4f4f4;
   border: none;
   cursor: pointer;
   position: fixed;
