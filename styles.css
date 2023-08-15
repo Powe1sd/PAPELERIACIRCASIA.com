@@ -72,37 +72,42 @@ header {
 
 /* Ajustar el estilo de las CATEGORIAS*/
 .productCard {
-  border: 9px solid green;
-  border-radius: 8px;
+  border: 10px solid green;
+  border-radius: 4px;
   padding: 10px;
   margin: 10px;
   width: calc(33.33% - 20px);
   box-sizing: border-box;
-  background-color: white;
+  background-color: aliceblue;
   text-align: center;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
+  display: flex;
+  /*Cambioimportante*/
+  flex-direction: column;
+  /*Cambioimportante*/
+  align-items: center;
 }
 
 .productCard img {
-  max-width: 100%;
+  max-width: 250%;
   height: auto;
   object-fit: cover;
-  width: 400px; /* Ajusta el ancho deseado */
-  height: 400px; /* Ajusta la altura deseada */
+  width: 700px; /* Ajusta el ancho deseado */
+  height: 700px;
   object-fit: cover;
 }
 
 .productCard img {
-  max-width: 100%; /* El ancho máximo será el 100% del contenedor */
-  height: 90%; /* La altura se ajustará automáticamente */
+  max-width: 104%; /* El ancho máximo será el 100% del contenedor */
+  height: 102%; /* La altura se ajustará automáticamente */
   object-fit: cover;
 }
 
 .productCard h3 {
   margin: 10px 0;
+}
+
+.product-price {
+  margin-top: auto; /* Espacio entre el nombre y el precio */
 }
 
 .despliegue {
@@ -154,7 +159,7 @@ header {
 @media (max-width: 768px) {
   .whatsapp-btn {
     bottom: 5px;
-    padding: 4px 160px;
+    padding: 2px 2px;
   }
 }
 
