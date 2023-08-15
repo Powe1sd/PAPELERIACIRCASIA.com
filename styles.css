@@ -95,6 +95,14 @@ header {
   object-fit: cover;
 }
 
+/* Dieseño responsivo */
+@media (max-width: 768px) {
+  .productCard img {
+    max-width: 100%; /* Ajusta el ancho deseado */
+    height: auto; /* La altura se ajustará automáticamente */
+  }
+}
+
 .productCard h3 {
   margin: 20px 0;
 }
