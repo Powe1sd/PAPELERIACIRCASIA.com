@@ -220,13 +220,13 @@ header {
   position: fixed;
   font-size: 40px;
   padding: 10px 20px;
+  top: -2px;
 }
 
 /* Estilos para el menú desplegable */
 .productos-desplegables {
   display: none;
-  position: absolute;
-  top: -80%;
+  top: -500px;
   left: 0;
   background-color: slategrey;
   border-radius: 5px;
@@ -238,6 +238,18 @@ header {
   transform: translateY(-10px);
   transition: opacity 0.3s ease, transform 0.3s ease;
   margin-top: 65px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+  -webkit-transition: opacity 0.3s ease, transform 0.3s ease;
+  -moz-transition: opacity 0.3s ease, transform 0.3s ease;
+  -ms-transition: opacity 0.3s ease, transform 0.3s ease;
+  -o-transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .despliegue:hover .productos-desplegables {
@@ -285,4 +297,83 @@ header {
 /* Agrega una clase de ocultar para la sección de desayunos sorpresa */
 .desayunos-sorpresa {
   display: none;
+}
+
+/* Despñiegue dos */
+
+/* Estilos para el botón de despliegue */
+#productos-btn2 {
+  background-color: green;
+  width: 50%;
+  height: 7%;
+  color: #f4f4f4;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  font-size: 20px;
+  padding: 10px 20px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+/* Estilos para el menú desplegable */
+
+/* Estilos para el botón de despliegue */
+#productos-btn2 {
+  background-color: green;
+  color: #f4f4f4;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  font-size: 20px;
+  padding: 10px 20px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+/* Estilos para el menú desplegable */
+.productos-desplegables2 {
+  display: none;
+  position: fixed;
+  top: 40px; /* Ajusta la distancia desde arriba según tus preferencias */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: slategrey;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+  width: 200px;
+  z-index: 1000;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.despliegue2:hover .productos-desplegables2 {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Ajustar el tiempo de espera antes de ocultar */
+.productos-desplegables2:hover {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.productos-desplegables2 a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.productos-desplegables2 a:hover {
+  background-color: #007bff;
 }
