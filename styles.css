@@ -60,9 +60,7 @@ header {
 #sacoProducts,
 #camisaProducts,
 #mugsProducts,
-#toallasProducts,
-#indumentariaProducts,
-#chalecoProducts {
+#papeleriaProducts {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -120,7 +118,8 @@ header {
 .mugs,
 .toallas,
 .indumentaria,
-.chaleco {
+.chaleco,
+.papeleria {
   text-align: center;
   color: #007bff;
   background-color: #f4f4f4;
@@ -158,10 +157,10 @@ header {
 /* Ajustar el botón en pantallas más pequeñas */
 @media (max-width: 768px) {
   .whatsapp-btn {
-    width: 50%;
-    height: 9%;
-    bottom: 2px;
-    padding: 2px 2px;
+    width: 80%;
+    height: 8%;
+    bottom: 50px;
+    padding: 1px 1px;
   }
 }
 

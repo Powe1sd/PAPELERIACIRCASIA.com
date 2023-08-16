@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //SECCION DE DESAYUNOS Y ANCHETAS
 const sacos = [
-  { id: 101, name: "Ancheta", price: 40000, image: "piñauno.jpg" },
-  { id: 102, name: "Ancheta", price: 20000, image: "piñados.jpeg" },
+  { id: 101, name: "Ancheta", price: 70000, image: "piñauno.jpg" },
+  { id: 102, name: "Ancheta", price: 300000, image: "piñados.jpeg" },
   { id: 102, name: "Ancheta", price: 30000, image: "piñatres.jpeg" },
   { id: 102, name: "Ancheta", price: 20000, image: "piñacuatro.jpeg" },
   { id: 101, name: "Ancheta", price: 50000, image: "piñacinco.jpeg" },
@@ -135,21 +135,21 @@ const mugs = [
   { id: 202, name: "CPIÑATERIA", price: 8000, image: "pdiecinueve.jpg" },
   { id: 202, name: "CPIÑATERIA", price: 8000, image: "p21.jpg" },
   { id: 202, name: "CPIÑATERIA", price: 8000, image: "p22.jpg" },
-  { id: 201, name: "PIÑATERIA", price: 8000, image: "p75.jpg" },
+  { id: 201, name: "PIÑATERIA", price: 800000000, image: "p73.jpg" },
   { id: 202, name: "CPIÑATERIA", price: 8000, image: "p24.jpg" },
   { id: 201, name: "PIÑATERIA", price: 800000, image: "p25.jpg" },
-  { id: 202, name: "CPIÑATERIA", price: 8000, image: ".jpg" },
-  { id: 201, name: "PIÑATERIA", price: 8000, image: ".jpg" },
-  { id: 202, name: "CPIÑATERIA", price: 8000, image: ".jpg" },
-  { id: 202, name: "CPIÑATERIA", price: 8000, image: ".jpg" },
-  { id: 202, name: "CPIÑATERIA", price: 8000, image: ".jpg" },
-  { id: 202, name: "CPIÑATERIA", price: 8000, image: ".jpg" },
-  { id: 202, name: "CPIÑATERIA", price: 8000, image: ".jpg" },
-  { id: 202, name: "CPIÑATERIA", price: 8000, image: ".jpg" },
-  { id: 202, name: "CPIÑATERIA", price: 8000, image: ".jpg" },
-  { id: 202, name: "CPIÑATERIA", price: 8000, image: ".jpg" },
-  { id: 202, name: "CPIÑATERIA", price: 8000, image: ".jpg" },
-  { id: 202, name: "CPIÑATERIA", price: 8000, image: ".jpg" },
+  { id: 202, name: "CPIÑATERIA", price: 8000, image: "p26.jpg" },
+  { id: 201, name: "PIÑATERIA", price: 8000, image: "p27.jpg" },
+  { id: 202, name: "CPIÑATERIA", price: 8000, image: "p28.jpg" },
+  { id: 202, name: "CPIÑATERIA", price: 8000, image: "p29.jpg" },
+  { id: 202, name: "CPIÑATERIA", price: 8000, image: "p30.jpg" },
+  { id: 202, name: "CPIÑATERIA", price: 8000, image: "p31.jpg" },
+  { id: 202, name: "CPIÑATERIA", price: 8000, image: "p32.jpg" },
+  { id: 202, name: "CPIÑATERIA", price: 8000, image: "p33.jpg" },
+  { id: 202, name: "CPIÑATERIA", price: 8000, image: "p34.jpg" },
+  { id: 202, name: "CPIÑATERIA", price: 8000, image: "p35.jpg" },
+  { id: 202, name: "CPIÑATERIA", price: 8000, image: "p36.jpg" },
+  { id: 202, name: "CPIÑATERIA", price: 8000, image: "p37.jpg" },
   { id: 202, name: "CPIÑATERIA", price: 8000, image: ".jpg" },
   { id: 202, name: "CPIÑATERIA", price: 8000, image: ".jpg" },
   { id: 201, name: "PIÑATERIA", price: 8000, image: ".jpg" },
@@ -189,49 +189,11 @@ const mugs = [
   // Agrega más camisas aquí
 ];
 
-const toallas = [
-  { id: 201, name: "Toallas Blanca", price: 8000, image: "toallas.jpg" },
-  { id: 202, name: "Toalla a Rayas", price: 8000, image: "toallaocho.jpg" },
-  { id: 201, name: "Toalla", price: 8000, image: "toallacuatro.jpg" },
-  { id: 202, name: "Toalla  ", price: 9000, image: "toallas.jpg" },
-  { id: 201, name: "Toalla ", price: 7000, image: "toallas.jpg" },
-  { id: 202, name: "Toalla", price: 8000, image: "toallas.jpg" },
-  { id: 201, name: "Toalla ", price: 8000, image: "toallacinco.jpg" },
-  { id: 202, name: "Toalla ", price: 8000, image: "toallados.jpg" },
-  { id: 201, name: "Toalla", price: 8000, image: "toallas.jpg" },
-  { id: 202, name: "Toalla ", price: 8000, image: "toallatres.jpg" },
-
-  // Agrega más camisas aquí
-];
-
-const indumentaria = [
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "camisados.jpeg" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "camisados.jpeg" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
-
-  // Agrega más camisas aquí
-];
-
-const chaleco = [
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "chaquetatres.jpg" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "chaquetados.jpg" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "chaquetauno.jpg" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "chaqueta.jpg" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "chaquetatres.jpg" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "chaquetauno.jpg" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "chaqueta.jpg" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "chaquetados.jpg" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "chaqueta.jpg" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "chaquetauno.jpg" },
-
-  // Agrega más camisas aquí
+//SECCION DE PAPELERIA
+const papeleria = [
+  { id: 101, name: "Ancheta", price: 70000, image: "piñauno.jpg" },
+  { id: 102, name: "Ancheta", price: 300000, image: "piñados.jpeg" },
+  { id: 101, name: "Ancheta", price: 70000, image: "piñauno.jpg" },
 ];
 
 const sacoProductsContainer = document.getElementById("sacoProducts");
@@ -242,6 +204,7 @@ const indumentariaProductsContainer = document.getElementById(
   "indumentariaProducts"
 );
 const chalecoProductsContainer = document.getElementById("chalecoProducts");
+const papeleriaProductsContainer = document.getElementById("papeleriaProducts");
 
 // Función para mostrar los productos de sacos
 function showSacos() {
@@ -268,26 +231,11 @@ function showMugs() {
   });
 }
 
-function showToallas() {
-  toallasProductsContainer.innerHTML = "";
-  toallas.forEach((product) => {
+function showPapeleria() {
+  papeleriaProductsContainer.innerHTML = "";
+  papeleria.forEach((product) => {
     const productCard = createProductCard(product);
-    toallasProductsContainer.appendChild(productCard);
-  });
-}
-function showIndumentaria() {
-  indumentariaProductsContainer.innerHTML = "";
-  indumentaria.forEach((product) => {
-    const productCard = createProductCard(product);
-    indumentariaProductsContainer.appendChild(productCard);
-  });
-}
-
-function showChaleco() {
-  chalecoProductsContainer.innerHTML = "";
-  chaleco.forEach((product) => {
-    const productCard = createProductCard(product);
-    chalecoProductsContainer.appendChild(productCard);
+    papeleriaProductsContainer.appendChild(productCard);
   });
 }
 
@@ -310,6 +258,4 @@ function createProductCard(product) {
 showSacos();
 showCamisas();
 showMugs();
-showToallas();
-showIndumentaria();
-showChaleco();
+showPapeleria();
