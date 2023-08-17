@@ -400,10 +400,11 @@ header {
 }
 
 .productCard img {
-  max-width: 100%; /* Ajusta el tamaño de la imagen según su contenedor */
-  height: auto;
+  max-width: 100%;
+  /*Ajustaeltamañodelaimagensegúnsucontenedor*/height: auto;
   object-fit: cover;
-  transition: transform 0.3s; /* Agrega una transición suave */
+  transition: transform 0.3s;
+
 }
 
 .productCard img {
