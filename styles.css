@@ -386,16 +386,10 @@ header {
 }
 
 /* Seccion de imaje para ampliar la imagen*/
-.productCard {
-  /* Tus estilos actuales para .productCard */
-  /* Asegúrate de que el contenedor tenga una posición relativa o absoluta */
-  position: relative;
-  overflow: hidden; /* Para recortar el contenido que se desborda */
-}
 
 .productCard img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   transition: transform 0.3s;
   -webkit-transition: transform 0.3s;
@@ -405,24 +399,23 @@ header {
 }
 
 .productCard:hover img {
-  transform: scale(1);
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
 }
 
 /* EFECTO DE ZOOM PARA LAS IMAGENES HACIENDO CLICK */
-
 .zoomed-image {
   max-width: 100%;
   height: auto;
   object-fit: cover;
-  transition: transform 0.7s ease-in-out;
-  -webkit-transition: transform 0.7s ease-in-out;
-  -moz-transition: transform 0.7s ease-in-out;
-  -ms-transition: transform 0.7s ease-in-out;
-  -o-transition: transform 0.7s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out;
+  -ms-transition: transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
 }
 
 .zoomed-image.zoom-in {
