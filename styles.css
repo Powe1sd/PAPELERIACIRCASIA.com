@@ -310,33 +310,20 @@ header {
 /* Despñiegue dos */
 
 /* Estilos para el botón de despliegue */
-#productos-btn2 {
-  background-color: green;
-  width: 50%;
-  height: 7%;
-  color: #f4f4f4;
-  border: none;
-  cursor: pointer;
-  position: fixed;
-  font-size: 20px;
-  padding: 10px 20px;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1000;
-}
 
 /* Estilos para el menú desplegable */
 
 /* Estilos para el botón de despliegue */
-#productos-btn2 {
+#productos-btn3 {
+  width: 50%;
   background-color: green;
   color: #f4f4f4;
   border: none;
   cursor: pointer;
   position: fixed;
   font-size: 30px;
-  padding: 10px 20px;
+  padding: 20px 30px;
+  height: 10%;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -347,7 +334,7 @@ header {
 .productos-desplegables2 {
   display: none;
   position: fixed;
-  top: 46px;
+  top: 66px;
   left: 45%;
   transform: translateX(-50%);
   background-color: black;
@@ -363,10 +350,6 @@ header {
   -moz-transition: opacity 0.3s ease, transform 0.3s ease;
   -ms-transition: opacity 0.3s ease, transform 0.3s ease;
   -o-transition: opacity 0.3s ease, transform 0.3s ease;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
 }
 
 .despliegue2:hover .productos-desplegables2 {
@@ -380,6 +363,10 @@ header {
   display: block;
   opacity: 1;
   transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
 }
 
 .productos-desplegables2 a {
@@ -388,6 +375,10 @@ header {
   color: white;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
 }
 
 .productos-desplegables2 a:hover {
@@ -397,10 +388,13 @@ header {
 /* Seccion de imaje para ampliar la imagen*/
 .productCard {
   /* Tus estilos actuales para .productCard */
+  /* Asegúrate de que el contenedor tenga una posición relativa o absoluta */
+  position: relative;
+  overflow: hidden; /* Para recortar el contenido que se desborda */
 }
 
 .productCard img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   object-fit: cover;
   transition: transform 0.3s;
@@ -410,25 +404,19 @@ header {
   -o-transition: transform 0.3s;
 }
 
-/* Elimina las declaraciones repetidas y ajusta el ancho y alto deseados */
-.productCard img {
-  width: 100%; /* Ajusta el ancho según el contenedor */
-  height: 100%; /* La altura se ajustará automáticamente */
-}
-
-.productCard img:hover {
-  transform: scale(1.4);
-  -webkit-transform: scale(1.4);
-  -moz-transform: scale(1.4);
-  -ms-transform: scale(1.4);
-  -o-transform: scale(1.4);
+.productCard:hover img {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
 }
 
 /* EFECTO DE ZOOM PARA LAS IMAGENES HACIENDO CLICK */
 
 .zoomed-image {
   max-width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   transition: transform 0.7s ease-in-out;
   -webkit-transition: transform 0.7s ease-in-out;
@@ -438,9 +426,19 @@ header {
 }
 
 .zoomed-image.zoom-in {
-  transform: scale(8);
-  -webkit-transform: scale(8);
-  -moz-transform: scale(8);
-  -ms-transform: scale(8);
-  -o-transform: scale(8);
+  transform: scale(3);
+  -webkit-transform: scale(3);
+  -moz-transform: scale(3);
+  -ms-transform: scale(3);
+  -o-transform: scale(3);
+}
+
+@media (max-width: 767px) {
+  .zoomed-image.zoom-in {
+    transform: scale(4);
+    -webkit-transform: scale(4);
+    -moz-transform: scale(4);
+    -ms-transform: scale(4);
+    -o-transform: scale(4);
+  }
 }
