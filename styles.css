@@ -111,7 +111,7 @@ header {
 
 .despliegue {
   position: fixed;
-  margin-top: -200px;
+  margin-top: -220px;
 }
 /* Estilos para las secciones de categorías */
 .sacos,
@@ -124,10 +124,10 @@ header {
   text-align: center;
   color: white;
   background-color: blue;
-  padding: 10px;
-  font-size: 24px;
+  padding: 2px;
+  font-size: 45px;
   font-weight: bold;
-  border-bottom: 3px solid red;
+  border-bottom: 2px solid red;
 }
 
 /* Estilos para la barra lateral */
@@ -158,6 +158,10 @@ header {
   -moz-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   -o-transform: translate(0, 0);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 /* Ajustar el botón en pantallas más pequeñas */
@@ -232,9 +236,9 @@ header {
 /* Estilos para el menú desplegable */
 .productos-desplegables {
   display: none;
-  top: -500px;
+  top: -400px;
   left: 0;
-  background-color: slategrey;
+  background-color: #007bff;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   padding: 10px 0;
@@ -328,10 +332,6 @@ header {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
 }
 
 /* Estilos para el menú desplegable */
@@ -349,21 +349,16 @@ header {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
 }
 
 /* Estilos para el menú desplegable */
 .productos-desplegables2 {
   display: none;
   position: fixed;
-  top: 40px;
-  /*Ajustaladistanciadesdearribasegúntuspreferencias*/
-  left: 50%;
+  top: 46px;
+  left: 45%;
   transform: translateX(-50%);
-  background-color: slategrey;
+  background-color: black;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   padding: 10px 0;
