@@ -179,7 +179,8 @@ header {
   padding: 10px 20px;
   background-color: green;
   color: white;
-  font-size: 30px; /* Aquí ya estás estableciendo el tamaño */
+  font-size: 30px;
+  /*Aquíyaestásestableciendoeltamaño*/
   text-decoration: none;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -192,17 +193,18 @@ header {
   background-color: darkgreen;
 }
 
+/* Seccion de contacto lo ultimo */
 .seccion-contacto {
   margin: 0;
   padding: 0;
-  margin-top: 980px;
+  margin-top: 200px;
   background-color: black;
   color: white;
-  padding: 30px;
+  padding: 20px;
 }
 
 .contacto-info h2 {
-  font-size: 24px;
+  font-size: 50px;
   margin-bottom: 10px;
 }
 
@@ -218,6 +220,7 @@ header {
 }
 .seccion {
   text-align: center;
+  font-size: 35px;
 }
 
 /* Estilos para el botón de despliegue */
