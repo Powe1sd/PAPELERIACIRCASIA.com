@@ -27,7 +27,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //SECCION DE DESAYUNOS Y ANCHETAS
 const sacos = [
-  { id: 101, name: "Desayuno Sorpresa", price: 70000, image: "piñauno.jpg" },
+  {
+    id: 101,
+    name: "Desayuno Sorpresa",
+    price: "30.000",
+    image: "piñauno.jpg",
+  },
   { id: 102, name: "Desayuno sorpresa", price: 0, image: "piñados.jpeg" },
   { id: 102, name: "Ancheta", price: 0, image: "piñatres.jpeg" },
   { id: 102, name: "Ancheta", price: 0, image: "piñacuatro.jpeg" },
@@ -192,46 +197,73 @@ const mugs = [
 
 //SECCION DE PAPELERIA
 const papeleria = [
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa2.jpeg" },
-  { id: 102, name: "PAPELERIA", price: 0, image: "pa3.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa4.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa5.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa6.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa7.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa8.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa9.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa22.jpeg" },
+  {
+    id: 101,
+    name: "Carpeta yute legajadora",
+    price: "20.000",
+    image: "pa2.jpeg",
+  },
+  { id: 102, name: "Carpeta colgante", price: "40.000", image: "pa3.jpeg" },
+  {
+    id: 101,
+    name: "Carpeta legajadora cafe",
+    price: 40000,
+    image: "pa4.jpeg",
+  },
+  { id: 101, name: "Carpeta Blanca", price: 0, image: "pa5.jpeg" },
+  { id: 101, name: "Carpeta plastica", price: 0, image: "pa6.jpeg" },
+  { id: 101, name: "Carpeta grande", price: 0, image: "pa7.jpeg" },
+  { id: 101, name: "Carpeta plastica", price: 0, image: "pa8.jpeg" },
+  { id: 101, name: "Carpeta plastica", price: 0, image: "pa9.jpeg" },
+  { id: 101, name: "Carpeta plastica", price: 0, image: "pa22.jpeg" },
   { id: 101, name: "Resma carta blanca", price: 0, image: "pa23.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa24.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa25.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa26.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa27.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa28.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa29.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa30.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa32.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa33.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa34.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa35.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa36.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa37.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa38.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa39.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa40.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa42.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa43.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa44.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa45.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa46.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa47.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa48.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa49.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa50.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa52.jpeg" },
-  { id: 101, name: "", price: 0, image: "pa53.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa55.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa54.jpeg" },
-  { id: 101, name: "PAPELERIA", price: 0, image: "pa56.jpeg" },
+  { id: 101, name: "Resma blanca oficio", price: 0, image: "pa24.jpeg" },
+  { id: 101, name: "Acetatos", price: 0, image: "pa25.jpeg" },
+  {
+    id: 101,
+    name: "Repuesto 80 hojas cuadriculado",
+    price: 0,
+    image: "pa27.jpeg",
+  },
+  {
+    id: 101,
+    name: "Cuaderno argollado 100 hojas",
+    price: 0,
+    image: "pa28.jpeg",
+  },
+
+  { id: 101, name: "Blog milimetrado zeppeling", price: 0, image: "pa33.jpeg" },
+  {
+    id: 101,
+    name: "Resma papel organico natural",
+    price: 0,
+    image: "pa34.jpeg",
+  },
+  {
+    id: 101,
+    name: "Cuaderno argollado 100 hojas  ",
+    price: 0,
+    image: "pa35.jpeg",
+  },
+  {
+    id: 101,
+    name: "Cuaderno grapados 50 hojas",
+    price: 20.0,
+    image: "pa36.jpeg",
+  },
+  { id: 101, name: "Agendas", price: 30.0, image: "pa39.jpeg" },
+  { id: 101, name: "Block carta", price: 0, image: "pa40.jpeg" },
+  { id: 101, name: "Stiquers", price: 0, image: "pa42.jpeg" },
+  { id: 101, name: "Cuaderno argollado", price: 0, image: "pa43.jpeg" },
+  { id: 101, name: "Cuaderno cocido", price: 0, image: "pa44.jpeg" },
+  { id: 101, name: "Block tamaño oficio", price: 0, image: "pa45.jpeg" },
+  { id: 101, name: "Cuaderno 7 materias", price: 0, image: "pa46.jpeg" },
+  { id: 101, name: "Cuaderno 5 materias", price: 0, image: "pa47.jpeg" },
+  { id: 101, name: "Tabla legajadora", price: 0, image: "pa48.jpeg" },
+  { id: 101, name: "Plancha para dibujo", price: 0, image: "pa49.jpeg" },
+  { id: 101, name: "Papel mantequilla", price: 0, image: "pa50.jpeg" },
+  { id: 101, name: "Carpeta sobre plastica", price: 0, image: "pa56.jpeg" },
+  { id: 101, name: "Carpeta plastica", price: 0, image: "pa54.jpeg" },
 ];
 
 const sacoProductsContainer = document.getElementById("sacoProducts");
@@ -297,3 +329,21 @@ showSacos();
 showCamisas();
 showMugs();
 showPapeleria();
+
+/* Formateando price de los precios para el . */
+
+const productCard = document.createElement("div");
+productCard.className = "productCard";
+productCard.innerHTML = `
+  <img src="imagenes/papeleria/${product.image}" alt="${product.name}">
+  <h3>${product.name}</h3>
+  <p>Precio: $${formatPrice(product.price)}</p>
+  <div class="productDetails" id="details-${product.id}">
+  </div>
+`;
+
+function formatPrice(priceInCents) {
+  const priceInDollars = priceInCents / 100;
+  // Formatear el precio con tres dígitos después del punto decimal
+  return priceInDollars.toFixed(3);
+}

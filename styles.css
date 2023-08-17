@@ -107,7 +107,6 @@ header {
 }
 
 .product-price {
-  font-size: 20px;
 }
 
 .despliegue {
@@ -363,10 +362,6 @@ header {
   opacity: 0;
   transform: translateY(-10px);
   transition: opacity 0.3s ease, transform 0.3s ease;
-  -webkit-transition: opacity 0.3s ease, transform 0.3s ease;
-  -moz-transition: opacity 0.3s ease, transform 0.3s ease;
-  -ms-transition: opacity 0.3s ease, transform 0.3s ease;
-  -o-transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .despliegue2:hover .productos-desplegables2 {
