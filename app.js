@@ -1,5 +1,3 @@
-// Datos simulados de productos para sacos y camisas
-
 //SECCION DE LA BARRA DE DESPLIEGUE DE PRODUCTOS
 
 document.addEventListener("DOMContentLoaded", function () {

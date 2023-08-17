@@ -143,13 +143,14 @@ header {
 
 .whatsapp-btn {
   position: fixed;
-  font-size: 30px;
-  border-radius: 5px;
+  font-size: 20px;
+  width: 40%;
+  border-radius: 2px;
   background-color: green;
   color: white;
-  padding: 10px 20px;
+  padding: 2px 2px;
   right: 0;
-  bottom: 20px;
+  bottom: -2px;
   /*Ajustaladistanciadesdeabajosegúntuspreferencias*/
   transform: translate(0, 0);
   z-index: 9999;
@@ -158,19 +159,17 @@ header {
   -moz-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   -o-transform: translate(0, 0);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
 }
 
 /* Ajustar el botón en pantallas más pequeñas */
 @media (max-width: 768px) {
   .whatsapp-btn {
     width: 80%;
+    width: 60%;
     height: 8%;
     bottom: 50px;
-    padding: 1px 1px;
+    padding: 2px 2px;
+    bottom: -4px;
   }
 }
 
@@ -224,17 +223,6 @@ header {
 }
 
 /* Estilos para el botón de despliegue */
-
-#productos-btn {
-  background-color: green;
-  color: #f4f4f4;
-  border: none;
-  cursor: pointer;
-  position: fixed;
-  font-size: 40px;
-  padding: 10px 20px;
-  top: -2px;
-}
 
 /* Estilos para el menú desplegable */
 .productos-desplegables {
@@ -296,6 +284,7 @@ header {
   margin-top: 20px;
 }
 
+/* BTON DE INICIO  */
 .button {
   text-align: center;
   padding: 10px 20px;
