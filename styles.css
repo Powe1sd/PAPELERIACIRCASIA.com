@@ -401,25 +401,15 @@ header {
 
 .productCard img {
   max-width: 100%;
-  /*Ajustaeltamañodelaimagensegúnsucontenedor*/height: auto;
-  object-fit: cover;
-  transition: transform 0.3s;
-
-}
-
-.productCard img {
-  max-width: 80%;
   height: auto;
   object-fit: cover;
-  width: 700px; /* Ajusta el ancho deseado */
-  height: 300px;
-  object-fit: cover;
+  transition: transform 0.3s;
 }
 
+/* Elimina las declaraciones repetidas y ajusta el ancho y alto deseados */
 .productCard img {
-  max-width: 104%; /* El ancho máximo será el 100% del contenedor */
-  height: 102%; /* La altura se ajustará automáticamente */
-  object-fit: cover;
+  width: 100%; /* Ajusta el ancho según el contenedor */
+  height: auto; /* La altura se ajustará automáticamente */
 }
 
 .productCard img:hover {
@@ -433,11 +423,10 @@ header {
 /* EFECTO DE ZOOM PARA LAS IMAGENES HACIENDO CLICK */
 
 .zoomed-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
   transition: transform 0.9s ease-in-out;
-  -webkit-transition: transform 0.9s ease-in-out;
-  -moz-transition: transform 0.9s ease-in-out;
-  -ms-transition: transform 0.9s ease-in-out;
-  -o-transition: transform 0.9s ease-in-out;
 }
 
 .zoomed-image.zoom-in {
