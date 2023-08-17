@@ -123,9 +123,9 @@ header {
 .papeleria {
   text-align: center;
   color: white;
-  background-color: blue;
+  background-color: green;
   padding: 2px;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: bold;
   border-bottom: 2px solid red;
 }
@@ -203,7 +203,7 @@ header {
 }
 
 .contacto-info h2 {
-  font-size: 50px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
@@ -219,7 +219,7 @@ header {
 }
 .seccion {
   text-align: center;
-  font-size: 35px;
+  font-size: 20px;
 }
 
 /* Estilos para el botón de despliegue */
