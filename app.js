@@ -23,6 +23,18 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+/* Efecto de zoom haciendo click */
+document.addEventListener("DOMContentLoaded", function () {
+  // Selecciona todas las imágenes que deseas aplicar el zoom
+  const images = document.querySelectorAll(".zoomed-image");
+
+  images.forEach((image) => {
+    image.addEventListener("click", function () {
+      this.classList.toggle("zoom-in");
+    });
+  });
+});
+
 //SECCION DE DESAYUNOS Y ANCHETAS
 const sacos = [
   {
@@ -118,7 +130,7 @@ const camisas = [
 
 // SECCION PIÑATERIA
 const mugs = [
-  { id: 201, name: "PIÑATERIA", price: 0, image: "puno.jpg" },
+  { id: 201, name: "PIÑATERIA", price: "20.000", image: "puno.jpg" },
   { id: 202, name: "PIÑATERIA", price: 0, image: "pdos.jpg" },
   { id: 201, name: "Velas", price: 0, image: "ptres.jpg" },
   { id: 202, name: "Velas", price: 0, image: "pcuatro.jpg" },

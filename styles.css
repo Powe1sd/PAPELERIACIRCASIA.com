@@ -393,3 +393,52 @@ header {
 .productos-desplegables2 a:hover {
   background-color: #007bff;
 }
+
+/* Seccion de imaje para ampliar la imagen*/
+.productCard {
+  /* Tus estilos actuales para .productCard */
+}
+
+.productCard img {
+  max-width: 100%; /* Ajusta el tamaño de la imagen según su contenedor */
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s; /* Agrega una transición suave */
+}
+
+.productCard img {
+  max-width: 80%;
+  height: auto;
+  object-fit: cover;
+  width: 700px; /* Ajusta el ancho deseado */
+  height: 300px;
+  object-fit: cover;
+}
+
+.productCard img {
+  max-width: 104%; /* El ancho máximo será el 100% del contenedor */
+  height: 102%; /* La altura se ajustará automáticamente */
+  object-fit: cover;
+}
+
+.productCard img:hover {
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+}
+
+/* EFECTO DE ZOOM PARA LAS IMAGENES HACIENDO CLICK */
+
+.zoomed-image {
+  transition: transform 0.9s ease-in-out;
+  -webkit-transition: transform 0.9s ease-in-out;
+  -moz-transition: transform 0.9s ease-in-out;
+  -ms-transition: transform 0.9s ease-in-out;
+  -o-transition: transform 0.9s ease-in-out;
+}
+
+.zoomed-image.zoom-in {
+  transform: scale(1.5); /* Ajusta el valor de escala según lo deseado */
+}
