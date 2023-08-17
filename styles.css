@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #007bff;
+  background-color: blue;
   color: white;
   padding: 10px;
   text-align: center;
@@ -122,12 +122,12 @@ header {
 .chaleco,
 .papeleria {
   text-align: center;
-  color: #007bff;
-  background-color: #f4f4f4;
+  color: white;
+  background-color: blue;
   padding: 10px;
   font-size: 24px;
   font-weight: bold;
-  border-bottom: 2px solid #007bff;
+  border-bottom: 3px solid red;
 }
 
 /* Estilos para la barra lateral */
@@ -292,8 +292,10 @@ header {
 .button {
   text-align: center;
   padding: 10px 20px;
-  background-color: red; /* Cambia el color de fondo a tu preferencia */
-  color: white; /* Cambia el color del texto a tu preferencia */
+  background-color: red;
+  /*Cambiaelcolordefondoatupreferencia*/
+  color: white;
+  /*Cambiaelcolordeltextoatupreferencia*/
   border: none;
   border-radius: 5px;
   text-decoration: none;
@@ -326,6 +328,10 @@ header {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
 
 /* Estilos para el menú desplegable */
@@ -343,6 +349,10 @@ header {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
 
 /* Estilos para el menú desplegable */
@@ -362,6 +372,14 @@ header {
   opacity: 0;
   transform: translateY(-10px);
   transition: opacity 0.3s ease, transform 0.3s ease;
+  -webkit-transition: opacity 0.3s ease, transform 0.3s ease;
+  -moz-transition: opacity 0.3s ease, transform 0.3s ease;
+  -ms-transition: opacity 0.3s ease, transform 0.3s ease;
+  -o-transition: opacity 0.3s ease, transform 0.3s ease;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
 
 .despliegue2:hover .productos-desplegables2 {
