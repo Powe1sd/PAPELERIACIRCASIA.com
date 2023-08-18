@@ -13,13 +13,13 @@ body {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 35px;
-  background-color: #007bff;
+  background-color: blue;
 }
 
 @keyframes colorChange {
   0%,
   100% {
-    color: black;
+    color: white;
   }
   50% {
     color: red;
@@ -30,7 +30,7 @@ body {
   margin: 0;
   padding: 0%;
   color: white;
-  background-color: black;
+  background-color: blue;
   font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
