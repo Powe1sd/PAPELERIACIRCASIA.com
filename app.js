@@ -24,13 +24,25 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 /* Efecto de zoom haciendo click */
-document.addEventListener("DOMContentLoaded", function () {
-  // Selecciona todas las imágenes que deseas aplicar el zoom
-  const images = document.querySelectorAll(".zoomed-image");
 
-  images.forEach((image) => {
+const categoriasButton = document.getElementById("productos-btn3");
+const categoriasDesplegable = document.querySelector(
+  ".productos-desplegables2"
+);
+
+categoriasButton.addEventListener("click", (event) => {
+  event.stopPropagation(); // Evita la propagación del evento a elementos padres
+  categoriasDesplegable.classList.toggle("show");
+});
+
+// Código para abrir la imagen cuando se hace clic en cualquier imagen de producto
+document.addEventListener("DOMContentLoaded", function () {
+  const allProductImages = document.querySelectorAll(".productCard img");
+
+  allProductImages.forEach((image) => {
     image.addEventListener("click", function () {
-      this.classList.toggle("zoom-in");
+      const imageUrl = image.getAttribute("src");
+      window.open(imageUrl, "_blank");
     });
   });
 });
