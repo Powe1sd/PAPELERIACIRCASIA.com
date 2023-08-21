@@ -1,3 +1,8 @@
+//BOTON DE REDIRECCION DEL ADMIN
+document.getElementById("adminButton").addEventListener("click", function () {
+  window.location.href = "/Validacion/index.html"; // Cambia "nuevo_index.html" con la URL de tu nuevo index
+});
+
 //SECCION DE LA BARRA DE DESPLIEGUE DE PRODUCTOS
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -450,3 +455,22 @@ function formatPrice(priceInCents) {
   // Formatear el precio con tres dígitos después del punto decimal
   return priceInDollars.toFixed(3);
 }
+
+//Editar productos
+function actualizarPrecio(productIndex) {
+  const inputElement = document.getElementById(
+    `input_precio_producto_${productIndex}`
+  );
+  const precioElement = document.getElementById(
+    `precio_producto_${productIndex}`
+  );
+
+  if (inputElement.value) {
+    papeleria[productIndex - 1].price = parseFloat(inputElement.value).toFixed(
+      2
+    );
+    precioElement.textContent = inputElement.value;
+  }
+}
+
+// Función para cargar los productos en la sección de papelería

@@ -6,6 +6,15 @@ body {
   background-color: white;
 }
 
+.admin {
+  width: 20%;
+  height: 30%;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: blue;
+  color: gold;
+}
+
 /* Destello  */
 .destello {
   animation: colorChange 3s infinite;
