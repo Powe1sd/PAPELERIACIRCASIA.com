@@ -1,6 +1,6 @@
 //BOTON DE REDIRECCION DEL ADMIN
 document.getElementById("adminButton").addEventListener("click", function () {
-  window.location.href = "/Validacion/index.html"; // Cambia "nuevo_index.html" con la URL de tu nuevo index
+  window.location.href = "/validacion.html"; // Cambia "nuevo_index.html" con la URL de tu nuevo index
 });
 
 //SECCION DE LA BARRA DE DESPLIEGUE DE PRODUCTOS
