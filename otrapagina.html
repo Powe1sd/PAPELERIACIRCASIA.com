@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDITAR PRECIOS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    /> 
+  </head>
+  <body>
+
+   
+    <button id="adminButton" class="admin" onclick="window.location.href = 'index.html'">SALIR</button>
+
+
+    <header>
+      <h1 class="nombre">EDITAR</h1>
+    </header><br><br><br>
+
+  
+
+
+    <div class="despliegue2">     
+        <button id="productos-btn3">CATEGORIAS</button>
+
+        <div class="productos-desplegables2">
+        <a href="anchetas.html">Desayunos sorpreas y anchetas</a>
+        <a href="peluches.html">Peluches</a>
+        <a href="piñateria.html">Piñateria</a>
+        <a href="paperia.html">Papeleria</a>        
+        <a href="">ATRAS</a>
+      </div>
+    </div>
+
+    
+
+    <div class="productCard"></div>
+  
+ 
+    <!-- Contenedor de varias secciones: camisas, toallas, etc. -->
+    <h2 class="sacos">DESAYUNOS SORPRESA Y ANCHETAS</h2>
+    <div class="productSection" id="sacoProducts"></div>
+    <br /><br /><br />
+
+    <h2 class="camisas">PELUCHES</h2>
+    <div class="categorySection">
+      <div class="productSection" id="camisaProducts"></div>
+
+      <br /><br /><br />
+
+      <div class="categorySection">
+
+        <h2 class="mugs">PIÑATERIA</h2>
+        <div class="productSection" id="mugsProducts">
+          <!-- Aquí se mostrarán los mugs personalizados -->
+        </div>
+      </div>
+      <br /><br /><br />
+
+       <div class="categorySection">
+        <h2 class="papeleria">PAPELERIA</h2>
+        <div class="productSection" id="papeleriaProducts">
+          <!-- Aquí se mostrarán los productos de papelería -->
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+      <div class="productSection" id="papeleriaProducts">
+        <!-- Productos de papelería -->
+        <div class="productCard">
+          <img src="pa2.jpeg" alt="Carpeta yute legajadora" />
+          <h3>Carpeta yute legajadora</h3>
+          <p>Precio: <span id="precio_producto_1">20.000</span></p>
+          <input type="number" id="input_precio_producto_1" placeholder="Nuevo precio">
+          <button onclick="actualizarPrecio(1)">Actualizar Precio</button>
+        </div>
+        <!-- Más productos aquí... -->
+      </div>
+      
+
+
+
+
+
+
+
+
+    <!-- BOTON DE WHASAPP -->
+    <div class="container mt-5">
+      <div class="whatsapp-btn">
+        <a
+          href="https://wa.me/573153276431?text=Hola,%20quiero%20más%20información"
+          target="_blank"
+          class="whatsapp-link"
+        >
+          <i class="fab fa-whatsapp"></i>WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <script src="/app.js"></script>
+
+
+
+
+
+    <section class="seccion-contacto">
+      <div class="contacto-info">
+        <h2 class="seccion">Contacto</h2>
+      </div>
+      <div class="enlaces-importantes">
+        <a class="seccion">Ubicación:</a>
+        <a class="seccion">Horario de Atención:</a>
+        <a class="seccion">Teléfono: (123) 456-7890</a>
+        <a class="seccion" href="#">Política de Privacidad</a>
+        <a class="seccion" href="#">Información Adicional</a>
+        <a class="seccion" href="#">Correo Electrónico</a>
+      </div>
+    </section>
+    
+    
+    <!-- Seccion de imagen ampliada -->
+    
+  </body>
+ 
+  </div>
+
+  <!-- Efecto zoom imajen -->
+</html>
