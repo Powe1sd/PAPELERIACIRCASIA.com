@@ -56,30 +56,32 @@ const sacos = [
     image: "piñauno.jpg",
   },
   { id: 102, name: "Desayuno sorpresa", price: 0, image: "piñados.jpeg" },
-  { id: 102, name: "Ancheta", price: 0, image: "piñatres.jpeg" },
-  { id: 102, name: "Ancheta", price: 0, image: "piñacuatro.jpeg" },
-  { id: 101, name: "Ancheta", price: 0, image: "piñacinco.jpeg" },
-  { id: 102, name: "Ancheta", price: 0, image: "piñaseis.jpeg" },
-  { id: 102, name: "Desayuno sorpresa", price: 0, image: "piñasiete.jpeg" },
-  { id: 102, name: "Desayuno sorpresa", price: 0, image: "piñaocho.jpeg" },
-  { id: 102, name: "Desayuno sorpresa", price: 0, image: "piñanueve.jpeg" },
-  { id: 102, name: "Ancheta", price: 0, image: "piñadies.jpeg" },
-  { id: 102, name: "Ancheta", price: 0, image: "piñaonce.jpeg" },
-  { id: 102, name: "globo", price: 0, image: "piñadoce.jpeg" },
-  { id: 102, name: "Desayuno", price: 0, image: "piñatrece.jpeg" },
-  { id: 102, name: "Ancheta", price: 0, image: "piñacatorce.jpeg" },
-  { id: 102, name: "Desayuno", price: 0, image: "piñaquince.jpeg" },
-  { id: 102, name: "Ancheta", price: 0, image: "piñadieciceis.jpeg" },
-  { id: 102, name: "Ancheta", price: 0, image: "piñadieciciete.jpeg" },
-  { id: 102, name: "Ancheta", price: 0, image: "piñadieciocho.jpeg" },
-  { id: 102, name: "Ancheta", price: 0, image: "piñadiecinueve.png" },
-  { id: 102, name: "Ancheta", price: 0, image: "piñaveinte.png" },
-  { id: 102, name: "Ancheta", price: 0, image: "piñaveintiuno.png" },
-  { id: 102, name: "Ancheta", price: 0, image: "piñaveintidos.png" },
-  { id: 102, name: "Ancheta", price: 0, image: "piñaventitres.png" },
+  { id: 103, name: "Ancheta", price: 0, image: "piñatres.jpeg" },
+  { id: 104, name: "Ancheta", price: 0, image: "piñacuatro.jpeg" },
+  { id: 105, name: "Ancheta", price: 0, image: "piñacinco.jpeg" },
+  { id: 106, name: "Ancheta", price: 0, image: "piñaseis.jpeg" },
+  { id: 107, name: "Desayuno sorpresa", price: 0, image: "piñasiete.jpeg" },
+  { id: 109, name: "Desayuno sorpresa", price: 0, image: "piñaocho.jpeg" },
+  { id: 110, name: "Desayuno sorpresa", price: 0, image: "piñanueve.jpeg" },
+  { id: 112, name: "Ancheta", price: 0, image: "piñadies.jpeg" },
+  { id: 112, name: "Ancheta", price: 0, image: "piñaonce.jpeg" },
+  { id: 113, name: "globo", price: 0, image: "piñadoce.jpeg" },
+  { id: 114, name: "Desayuno", price: 0, image: "piñatrece.jpeg" },
+  { id: 115, name: "Ancheta", price: 0, image: "piñacatorce.jpeg" },
+  { id: 116, name: "Desayuno", price: 0, image: "piñaquince.jpeg" },
+  { id: 117, name: "Ancheta", price: 0, image: "piñadieciceis.jpeg" },
+  { id: 118, name: "Ancheta", price: 0, image: "piñadieciciete.jpeg" },
+  { id: 119, name: "Ancheta", price: 0, image: "piñadieciocho.jpeg" },
+  { id: 120, name: "Ancheta", price: 0, image: "piñadiecinueve.png" },
+  { id: 121, name: "Ancheta", price: 0, image: "piñaveinte.png" },
+  { id: 122, name: "Ancheta", price: 0, image: "piñaveintiuno.png" },
+  { id: 123, name: "Ancheta", price: 0, image: "piñaveintidos.png" },
+  { id: 124, name: "Ancheta", price: 0, image: "piñaventitres.png" },
 
   // Agrega más sacos aquí
 ];
+
+/* Funcion para editar precios */
 
 //SECCION DE PELUCHES
 const camisas = [
@@ -469,3 +471,5 @@ function actualizarPrecio(productIndex) {
 }
 
 // Función para cargar los productos en la sección de papelería
+
+/* Funcion para habilitar precios */
