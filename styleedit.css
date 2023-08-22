@@ -110,7 +110,10 @@ header {
   font-size: 11spx;
 }
 
+/* No me funciona esta linea */
 .product-price {
+  color: #007bff;
+  font-size: 20px;
 }
 
 .despliegue {
@@ -302,3 +305,13 @@ header {
 }
 
 /* Ajusta los estilos según tus preferencias */
+
+.input_precio {
+  width: 100%;
+  height: auto;
+  border: 1px solid red;
+  color: black;
+}
+.actualizar_btn {
+  margin-top: 20px;
+}

@@ -472,4 +472,6 @@ function actualizarPrecio(productIndex) {
 
 // Función para cargar los productos en la sección de papelería
 
-/* Funcion para habilitar precios */
+/*****************************************************************++++ */
+/* Funcion para actualizar precio */
+
