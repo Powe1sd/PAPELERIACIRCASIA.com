@@ -286,28 +286,18 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
-.productCard {
-  width: calc(33.33% - 20px);
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  text-align: center;
-  display: flex;
-  flex-direction: 1;
-  max-width: 104%; /* El ancho máximo será el 100% del contenedor */
-  height: 102%; /* La altura se ajustará automáticamente */
-  object-fit: cover;
-}
-
 .productCard img {
-  max-width: 100%;
-  height: auto;
   max-width: 80%;
   height: auto;
   object-fit: cover;
   width: 700px; /* Ajusta el ancho deseado */
   height: 300px;
+  object-fit: cover;
+}
+
+.productCard img {
+  max-width: 104%; /* El ancho máximo será el 100% del contenedor */
+  height: 102%; /* La altura se ajustará automáticamente */
   object-fit: cover;
 }
 
