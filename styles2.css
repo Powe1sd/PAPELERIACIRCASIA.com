@@ -2,11 +2,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #0056b3;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #0056b3;
   border: 2px solid black;
 }
 
@@ -19,44 +19,52 @@ body {
   background-color: black;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 130px;
-  width: 100%; /* Cambiado a un ancho del 90% */
-  max-width: 450px; /* Máximo ancho para evitar que sea demasiado grande en pantallas grandes */
-  height: 400px;
+  padding: 120px;
+  /*Ajustadoelpaddingparadispositivosmóviles*/
+  width: 125%;
+  /*Anchoreducidoparadispositivosmóviles*/
+  max-width: 450px;
   text-align: center;
   border: 3px solid red;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
 
 .login-container h1 {
-  font-size: 65px; /* Tamaño de fuente reducido para dispositivos móviles */
+  font-size: 35px; /* Tamaño de fuente reducido para dispositivos móviles */
   margin-bottom: 20px;
 }
 
 .login-container label {
   display: block;
-  margin-bottom: 10px; /* Margen reducido para dispositivos móviles */
+  margin-bottom: 10px;
   font-weight: bold;
 }
 
 .login-container input[type="text"],
 .login-container input[type="password"] {
-  width: 100%; /* Cambiado a ancho del 100% para ocupar todo el contenedor */
+  width: 100%;
   padding: 10px;
-  margin-bottom: 15px; /* Margen reducido para dispositivos móviles */
+  margin-bottom: 15px;
   border: 3px solid red;
   border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 
 .seleccionar {
   font-size: 20px;
-  color: white; /* Tamaño de fuente reducido para dispositivos móviles */
+  color: white;
 }
 
 .selector {
   font-size: 40px;
   color: black;
   background-color: white;
-  /* Tamaño de fuente reducido para dispositivos móviles */
 }
 
 .pa {
@@ -65,15 +73,15 @@ body {
   color: white;
   background-color: black;
   font-size: 30px;
-  text-justify: auto;
+  text-align: center;
   font-family: "Times New Roman", Times, serif;
-  margin-top: -320px;
+  margin-top: 20px; /* Ajustado el margen */
 }
 
 .boton2 {
-  font-size: 35px;
+  font-size: 25px; /* Tamaño de fuente reducido para dispositivos móviles */
   background-color: white;
   border: 2px solid red;
   color: black;
-  margin-top: 80px;
+  margin-top: 20px; /* Ajustado el margen */
 }
