@@ -184,8 +184,8 @@ header {
 
 .whatsapp-btn {
   position: fixed;
-  font-size: 20px;
-  width: 40%;
+  font-size: 30px;
+  width: 20%;
   border-radius: 2px;
   background-color: green;
   color: white;
@@ -200,6 +200,10 @@ header {
   -moz-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   -o-transform: translate(0, 0);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
 }
 
 /* Ajustar el botón en pantallas más pequeñas */
@@ -219,7 +223,7 @@ header {
   padding: 10px 20px;
   background-color: green;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   /*Aquíyaestásestableciendoeltamaño*/
   text-decoration: none;
   border-radius: 5px;
@@ -356,7 +360,7 @@ header {
 
 /* Estilos para el botón de despliegue */
 #productos-btn3 {
-  width: 30%;
+  width: 45%;
   background-color: green;
   color: #f4f4f4;
   border: none;
@@ -364,7 +368,7 @@ header {
   position: fixed;
   font-size: 20px;
   padding: 10px 20px;
-  height: 10%;
+  height: 11%;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
