@@ -137,6 +137,14 @@ header {
   border-bottom: 2px solid red;
 }
 
+/* Agrega margen superior al encabezado h2 de la sección de peluches */
+.peluches h2 {
+  margin-top: 20px; /* Ajusta el valor según lo necesites */
+}
+
+/* Otros estilos que ya tienes en tu archivo CSS */
+/* ... */
+
 /* Estilos para la barra lateral */
 #sidebar {
   /* Tus estilos actuales */
@@ -314,4 +322,38 @@ header {
 }
 .actualizar_btn {
   margin-top: 20px;
+}
+
+/****************************** seccion peluches columnas de 3 */
+.productCard {
+  display: inline-block;
+  width: calc(
+    33.33% - 30px
+  ); /* El 20px es para dar espacio entre las columnas */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.productCard img {
+  max-width: 80%;
+  height: auto;
+  object-fit: cover;
+  width: 700px; /* Ajusta el ancho deseado */
+  height: 300px;
+  object-fit: cover;
+
+
+
+
+}
+
+/* Ajusta los estilos de acuerdo a tu diseño */
+
+@media screen and (max-width: 768px) {
+  /* Cambia el diseño para dispositivos móviles si es necesario */
+  .productCard {
+    width: 100%;
+  }
 }
