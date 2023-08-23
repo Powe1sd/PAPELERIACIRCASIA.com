@@ -19,16 +19,16 @@ body {
   background-color: black;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 300px;
-  width: 200%;
+  padding: 200px;
+  width: 90%;
   max-width: 450px;
   text-align: center;
   border: 3px solid red;
 }
 
 .login-container h1 {
-  font-size: 20px;
-  margin-bottom: 15px;
+  font-size: 60px;
+  margin-bottom: 20px;
 }
 
 .login-container label {
@@ -44,15 +44,19 @@ body {
   margin-bottom: 15px;
   border: 2px solid red;
   border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 
 .seleccionar {
-  font-size: 16px;
+  font-size: 20px;
   color: white;
 }
 
 .selector {
-  font-size: 28px;
+  font-size: 33px;
   color: black;
   background-color: white;
 }
@@ -71,7 +75,7 @@ body {
 .boton2 {
   font-size: 20px;
   background-color: white;
-  border: 2px solid red;
+  border: 1px solid red;
   color: black;
   margin-top: 15px;
 }
@@ -79,8 +83,8 @@ body {
 /* Media Query para dispositivos con ancho máximo de 768px */
 @media screen and (max-width: 768px) {
   .login-container {
-    padding: 300px;
-    width: 200%;
+    padding: 500px;
+    width: 500%;
     border: 2px solid green;
   }
 
@@ -106,6 +110,6 @@ body {
   }
 
   .boton2 {
-    font-size: 18px;
+    font-size: 25px;
   }
 }
