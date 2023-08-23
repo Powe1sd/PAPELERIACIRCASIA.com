@@ -7,9 +7,10 @@ body {
 }
 .admin-icon {
   align-self: flex-end; /* Posición en la esquina superior derecha */
-  margin: 20px; /* Espaciado del icono con respecto al borde */
-  font-size: 90px;
+  margin: 10px; /* Espaciado del icono con respecto al borde */
+  font-size: 60px;
   color: black;
+  width: 20px;
   cursor: pointer;
   margin-top: -2px;
 }
