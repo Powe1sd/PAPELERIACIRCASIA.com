@@ -5,14 +5,13 @@ body {
   font-family: Arial, sans-serif;
   background-color: aliceblue;
 }
-
-.admin {
-  width: 20%;
-  height: 30%;
-  font-size: 30px;
+.admin-icon {
+  align-self: flex-end; /* Posición en la esquina superior derecha */
+  margin: 20px; /* Espaciado del icono con respecto al borde */
+  font-size: 90px;
+  color: black;
   cursor: pointer;
-  background-color: blue;
-  color: gold;
+  margin-top: -2px;
 }
 
 /* Destello  */
@@ -357,19 +356,30 @@ header {
 
 /* Estilos para el botón de despliegue */
 #productos-btn3 {
-  width: 50%;
+  width: 30%;
   background-color: green;
   color: #f4f4f4;
   border: none;
   cursor: pointer;
   position: fixed;
-  font-size: 30px;
-  padding: 20px 30px;
+  font-size: 20px;
+  padding: 10px 20px;
   height: 10%;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transition: all 0.3s ease-in-out; /* Agregamos una transición suave */
+  border-radius: 20px; /* Añadimos un valor de border-radius para hacerlo más redondeado */
+}
+
+#productos-btn3:hover {
+  background-color: #44cc44;
+  transform: translateX(-50%) translateY(-2px) rotateX(5deg); /* Efecto 3D */
 }
 
 /* Estilos para el menú desplegable */

@@ -12,29 +12,23 @@ body {
 
 .iniciar {
   color: white;
-  margin-top: -45px;
+  margin-top: -25px;
 }
 
 .login-container {
   background-color: black;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 120px;
-  /*Ajustadoelpaddingparadispositivosmóviles*/
-  width: 125%;
-  /*Anchoreducidoparadispositivosmóviles*/
+  padding: 60px;
+  width: 90%;
   max-width: 450px;
   text-align: center;
   border: 3px solid red;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
 }
 
 .login-container h1 {
-  font-size: 35px; /* Tamaño de fuente reducido para dispositivos móviles */
-  margin-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 15px;
 }
 
 .login-container label {
@@ -48,21 +42,17 @@ body {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 3px solid red;
+  border: 2px solid red;
   border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
 }
 
 .seleccionar {
-  font-size: 20px;
+  font-size: 16px;
   color: white;
 }
 
 .selector {
-  font-size: 40px;
+  font-size: 28px;
   color: black;
   background-color: white;
 }
@@ -72,16 +62,50 @@ body {
   padding: 0;
   color: white;
   background-color: black;
-  font-size: 30px;
+  font-size: 24px;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  margin-top: 20px; /* Ajustado el margen */
+  margin-top: 15px;
 }
 
 .boton2 {
-  font-size: 25px; /* Tamaño de fuente reducido para dispositivos móviles */
+  font-size: 20px;
   background-color: white;
   border: 2px solid red;
   color: black;
-  margin-top: 20px; /* Ajustado el margen */
+  margin-top: 15px;
+}
+
+/* Media Query para dispositivos con ancho máximo de 768px */
+@media screen and (max-width: 768px) {
+  .login-container {
+    padding: 10px;
+    width: 100%;
+    border: 2px solid green;
+  }
+
+  .login-container h1 {
+    font-size: 18px;
+  }
+
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    padding: 8px;
+  }
+
+  .seleccionar {
+    font-size: 14px;
+  }
+
+  .selector {
+    font-size: 24px;
+  }
+
+  .pa {
+    font-size: 20px;
+  }
+
+  .boton2 {
+    font-size: 18px;
+  }
 }
