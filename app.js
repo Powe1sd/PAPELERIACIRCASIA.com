@@ -382,6 +382,58 @@ const papeleria = [
   { id: 101, name: "Lápices colores ", price: 0, image: "c58.jpeg" },
   { id: 101, name: "Lápices colores ", price: 0, image: "c59.jpeg" },
   { id: 101, name: "Lápices colores ", price: 0, image: "c60.jpeg" },
+  { id: 101, name: "Emvase vidrio ", price: 0, image: "v1.jpeg" },
+  { id: 101, name: "Emvase vidrio redondo ", price: 0, image: "v2.jpeg" },
+  { id: 101, name: "Emvase vidrio plano ", price: 0, image: "v3.jpeg" },
+  { id: 101, name: "Emvase de vidrio mini  ", price: 0, image: "v4.jpeg" },
+  { id: 101, name: "Rollo termico  ", price: 0, image: "v5.jpeg" },
+  { id: 101, name: "Facturero mediano  ", price: 0, image: "v6.jpeg" },
+  { id: 101, name: "Talonario mediano  ", price: 0, image: "v7.jpeg" },
+  { id: 101, name: "Talonario mini  ", price: 0, image: "v8.jpeg" },
+  { id: 101, name: "Botella pequeña  ", price: 0, image: "v9.jpeg" },
+  { id: 101, name: "Grapadora pequeña  ", price: 0, image: "v10.jpeg" },
+  { id: 101, name: "Grapadora mediana  ", price: 0, image: "v11.jpeg" },
+  { id: 101, name: "Perforadora 1 hueco  ", price: 0, image: "v12.jpeg" },
+  { id: 101, name: "Perforadora 2 huecos  ", price: 0, image: "v13.jpeg" },
+  { id: 101, name: "Talonario egreso  ", price: 0, image: "v14.jpeg" },
+  { id: 101, name: "Grapa standar  ", price: 0, image: "v15.jpeg" },
+  { id: 101, name: "Clip mariposa  ", price: 0, image: "v16.jpeg" },
+  { id: 101, name: "Barra plastica  ", price: 0, image: "v17.jpeg" },
+  { id: 101, name: "Porta cinta  ", price: 0, image: "v18.jpeg" },
+  { id: 101, name: "Almohadilla sellos  ", price: 0, image: "v19.jpeg" },
+  { id: 101, name: "Sellos  ", price: 0, image: "v20.jpeg" },
+  { id: 101, name: "Cartuchera  ", price: 0, image: "v21.jpeg" },
+  { id: 101, name: "Cartuchera  ", price: 0, image: "v22.jpeg" },
+  { id: 101, name: "Cartuchera  ", price: 0, image: "v23.jpeg" },
+  { id: 101, name: "Agenda  ", price: 0, image: "v24.jpeg" },
+  { id: 101, name: "Bateria D  ", price: 0, image: "v25.jpeg" },
+  { id: 101, name: "Pegante  ", price: 0, image: "v26.jpeg" },
+  { id: 101, name: "Bateria AA  ", price: 0, image: "v27.jpeg" },
+  { id: 101, name: "Bateria AA  ", price: 0, image: "v28.jpeg" },
+  { id: 101, name: "Regla  ", price: 0, image: "v34.jpeg" },
+  { id: 101, name: "Bateria  ", price: 0, image: "v32.jpeg" },
+  { id: 101, name: "Transportador  ", price: 0, image: "v33.jpeg" },
+  { id: 101, name: "Escuadra 60   ", price: 0, image: "v35.jpeg" },
+  { id: 101, name: "Escuadra 45  ", price: 0, image: "v36.jpeg" },
+  { id: 101, name: "Trasportador 180  ", price: 0, image: "v37.jpeg" },
+  { id: 101, name: "Juego jenga  ", price: 0, image: "v38.jpeg" },
+  { id: 101, name: "Ajedrez pequeño  ", price: 0, image: "v39.jpeg" },
+  { id: 101, name: "Baraja poquer", price: 0, image: "v40.jpeg" },
+  { id: 101, name: "Domino mediano  ", price: 0, image: "v41.jpeg" },
+  { id: 101, name: "Set escuadras  ", price: 0, image: "v42.jpeg" },
+  { id: 101, name: "Tabla didáctica  ", price: 0, image: "v43.jpeg" },
+  { id: 101, name: "Parques  ", price: 0, image: "v44.jpeg" },
+  { id: 101, name: "Producto  ", price: 0, image: "v45.jpeg" },
+  { id: 101, name: "Abacos  ", price: 0, image: "v46.jpeg" },
+  { id: 101, name: "Foamy 1/8  ", price: 0, image: "v47.jpeg" },
+  { id: 101, name: "Foamy 1/8  ", price: 0, image: "v48.jpeg" },
+  { id: 101, name: "Limpapipas  ", price: 0, image: "v49.jpeg" },
+  { id: 101, name: "Cartulina 1/8  ", price: 0, image: "v50.jpeg" },
+  { id: 101, name: "Rollos papel  ", price: 0, image: "v51.jpeg" },
+  { id: 101, name: "Libro colorear  ", price: 0, image: "v52.jpeg" },
+  { id: 101, name: "Tigeras punta roma  ", price: 0, image: "v53.jpeg" },
+  { id: 101, name: "Tigeras zig zag", price: 0, image: "v54.jpeg" },
+  { id: 101, name: "Bisturi metálico", price: 0, image: "v55.jpeg" },
 ];
 
 const sacoProductsContainer = document.getElementById("sacoProducts");
@@ -494,9 +546,9 @@ document.addEventListener("DOMContentLoaded", function () {
       // Crea la imagen ampliada
       const zoomedImage = document.createElement("img");
       zoomedImage.src = image.src;
-      zoomedImage.style.width = "100vw"; // Anchura al 100% del viewport
+      zoomedImage.style.width = "auto"; // Anchura al 100% del viewport
       zoomedImage.style.height = "auto"; // Altura se ajustará proporcionalmente
-      zoomedImage.style.maxHeight = "100vh"; // Altura máxima del 90% del viewport
+      zoomedImage.style.maxHeight = "90vh"; // Altura máxima del 90% del viewport
       zoomedImage.style.objectFit = "contain";
 
       // Crea la "x" de cerrar
