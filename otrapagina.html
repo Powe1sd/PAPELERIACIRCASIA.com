@@ -32,10 +32,49 @@
     
 
  
-    <!-- Contenedor de varias secciones: camisas, toallas, etc. -->
-    <h2 class="sacos">EDITAR DESAYUNOS SORPRESA Y ANCHETAS</h2>
-    <div class="productSection" id="sacoProducts"></div>
-    <br /><br /><br />
+    <h2 class="sacos">DESAYUNOS SORPRESA Y ANCHETAS</h2>
+    <div class="productSection" id="sacoProducts">
+      <!-- Aquí se generarán las tarjetas de producto -->
+    </div>
+  
+
+
+    <h2 class="sacos">DESAYUNOS SORPRESA Y ANCHETAS</h2>
+    <div class="productSection" id="sacoProducts">
+      <!-- Aquí se generarán las tarjetas de producto -->
+      <!-- Ejemplo de cómo agregar inputs para editar precios -->
+      <div class="productCard">
+        <img src="imagenes/papeleria/piñauno.jpg"  />
+        <h3>Desayuno Sorpresa</h3>
+        <p>Precio: <span class="precio">0</span></p>
+        <input type="number" class="input_precio" id="precio101" placeholder="Nuevo precio">
+        <button class="actualizar_btn" onclick="editarPrecio(0)">Actualizar Precio</button>
+      </div>
+      <!-- Repite esto para otros productos -->
+    </div>
+
+
+    <div class="productSection" id="sacoProducts">
+      <!-- Aquí se generarán las tarjetas de producto -->
+      <!-- Ejemplo de cómo agregar inputs para editar precios -->
+      <div class="productCard">
+        <img src="imagenes/papeleria/piñados.jpeg"  />
+        <h3>Desayuno Sorpresa</h3>
+        <p>Precio: <span class="precio">0</span></p>
+        <input type="number" class="input_precio" id="precio102" placeholder="Nuevo precio">
+        <button class="actualizar_btn" onclick="editarPrecio(0)">Actualizar Precio</button>
+      </div>
+      <!-- Repite esto para otros productos -->
+    </div>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -44,18 +83,20 @@
 
       <!-- Seccion de editar 2 -->
       <h1 class="sacos">EDITAR DESAYUNOS SORPRESA 2</h1>
+
       <div class="productSection" id="sacoProducts">
+        <!-- Aquí se generarán las tarjetas de producto -->
+        <!-- Ejemplo de cómo agregar inputs para editar precios -->
         <div class="productCard">
-          <img src="imagenes/papeleria/piñauno.jpg" alt="Carpeta yute legajadora" />
-          <h3>Carpeta yute legajadora</h3>
+          <img src="imagenes/papeleria/piñauno.jpg"  />
+          <h3>Desayuno Sorpresa</h3>
           <p>Precio: <span class="precio">0</span></p>
-          <input type="number" class="input_precio" placeholder="Nuevo precio">
-          <button class="actualizar_btn">Actualizar Precio</button>
+          <input type="number" class="input_precio" id="precio101" placeholder="Nuevo precio">
+          <button class="actualizar_btn" onclick="editarPrecio(0)">Actualizar Precio</button>
         </div>
-
-
-
-
+        <!-- Repite esto para otros productos -->
+      </div>
+    
 
 
 
@@ -65,14 +106,19 @@
           <h3>Carpeta yute legajadora</h3>
           <p>Precio: <span class="precio">0</span></p>
           <input type="number" class="input_precio" placeholder="Nuevo precio">
-          <button class="actualizar_btn">Actualizar Precio</button>
+          <button class="actualizar_btn" onclick="editarPrecio(0)">Actualizar Precio</button>
+        
+        
         </div>
+        
         <div class="productCard">
           <img src="imagenes/papeleria/piñatres.jpeg" alt="Carpeta yute legajadora" />
           <h3>Carpeta yute legajadora</h3>
           <p>Precio: <span class="precio">0</span></p>
           <input type="number" class="input_precio" placeholder="Nuevo precio">
           <button class="actualizar_btn">Actualizar Precio</button>
+        
+        
         </div>
         <!-- Repite esta estructura para más productos... -->
         <div class="productCard">

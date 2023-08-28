@@ -23,11 +23,11 @@ function pedirDatos() {
   var contrasenaIngresada = document.getElementById("contrasena").value;
 
   // Verifica las credenciales según el usuario seleccionado
-  if (usuarioSeleccionado === "martha" && contrasenaIngresada === "23") {
+  if (usuarioSeleccionado === "martha" && contrasenaIngresada === "1234") {
     window.location.href = "otrapagina.html";
-  } else if (usuarioSeleccionado === "pepe" && contrasenaIngresada === "456") {
+  } else if (usuarioSeleccionado === "pepe" && contrasenaIngresada === "234") {
     window.location.href = "otrapagina.html";
-  } else if (usuarioSeleccionado === "jorge" && contrasenaIngresada === "789") {
+  } else if (usuarioSeleccionado === "jorge" && contrasenaIngresada === "345") {
     window.location.href = "otrapagina.html";
   } else {
     alert("Datos incorrectos. Inténtalo nuevamente.");

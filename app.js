@@ -1,64 +1,15 @@
-//SECCION DE LA BARRA DE DESPLIEGUE DE PRODUCTOS
-
-document.addEventListener("DOMContentLoaded", function () {
-  var productosBtn = document.getElementById("productos-btn");
-  var productosDesplegables = document.querySelector(".productos-desplegables");
-
-  productosBtn.addEventListener("touchstart", function (event) {
-    event.stopPropagation();
-    if (productosDesplegables.style.display === "none") {
-      productosDesplegables.style.display = "block";
-    } else {
-      productosDesplegables.style.display = "none";
-    }
-  });
-
-  document.addEventListener("touchstart", function (event) {
-    if (
-      !productosDesplegables.contains(event.target) &&
-      event.target !== productosBtn
-    ) {
-      productosDesplegables.style.display = "none";
-    }
-  });
-});
-
-/* Efecto de zoom haciendo click */
-
-const categoriasButton = document.getElementById("productos-btn3");
-const categoriasDesplegable = document.querySelector(
-  ".productos-desplegables2"
-);
-
-categoriasButton.addEventListener("click", (event) => {
-  event.stopPropagation(); // Evita la propagación del evento a elementos padres
-  categoriasDesplegable.classList.toggle("show");
-});
-
-// Código para abrir la imagen cuando se hace clic en cualquier imagen de producto
-document.addEventListener("DOMContentLoaded", function () {
-  const allProductImages = document.querySelectorAll(".productCard img");
-
-  allProductImages.forEach((image) => {
-    image.addEventListener("click", function () {
-      const imageUrl = image.getAttribute("src");
-      window.open(imageUrl, "_blank");
-    });
-  });
-});
-
 //SECCION DE DESAYUNOS Y ANCHETAS
 const sacos = [
   {
     id: 101,
     name: "Desayuno Sorpresa",
-    price: "0",
+    price: "21.000",
     image: "piñauno.jpg",
   },
-  { id: 102, name: "Desayuno sorpresa", price: 0, image: "piñados.jpeg" },
-  { id: 103, name: "Ancheta", price: 0, image: "piñatres.jpeg" },
-  { id: 104, name: "Ancheta", price: 0, image: "piñacuatro.jpeg" },
-  { id: 105, name: "Ancheta", price: 0, image: "piñacinco.jpeg" },
+  { id: 102, name: "Desayuno sorpresa", price: "0", image: "piñados.jpeg" },
+  { id: 103, name: "Ancheta", price: "0", image: "piñatres.jpeg" },
+  { id: 104, name: "Ancheta", price: "0", image: "piñacuatro.jpeg" },
+  { id: 105, name: "Ancheta", price: "0", image: "piñacinco.jpeg" },
   { id: 106, name: "Ancheta", price: 0, image: "piñaseis.jpeg" },
   { id: 107, name: "Desayuno sorpresa", price: 0, image: "piñasiete.jpeg" },
   { id: 109, name: "Desayuno sorpresa", price: 0, image: "piñaocho.jpeg" },
@@ -77,6 +28,8 @@ const sacos = [
   { id: 122, name: "Ancheta", price: 0, image: "piñaveintiuno.png" },
   { id: 123, name: "Ancheta", price: 0, image: "piñaveintidos.png" },
   { id: 124, name: "Ancheta", price: 0, image: "piñaventitres.png" },
+  { id: 124, name: "Ancheta", price: 0, image: "ancheta.jpeg" },
+  { id: 124, name: "Ancheta", price: 0, image: "ancheta2.jpeg" },
 
   // Agrega más sacos aquí
 ];
@@ -369,6 +322,66 @@ const papeleria = [
   { id: 101, name: "Colores ", price: 0, image: "la202.jpg" },
   { id: 101, name: "Colores Norma ", price: 0, image: "la203.jpg" },
   { id: 101, name: "Resaltadores de colores ", price: 0, image: "la204.jpg" },
+  { id: 101, name: "Plastilina ", price: 0, image: "c1.jpeg" },
+  { id: 101, name: "Foamy moldeable ", price: 0, image: "c2.jpeg" },
+  { id: 101, name: "Plastilina ", price: 0, image: "c3.jpeg" },
+  { id: 101, name: "Plastilina ", price: 0, image: "c4.jpeg" },
+  { id: 101, name: "Vasos ", price: 0, image: "c5.jpeg" },
+  { id: 101, name: "Pegamento ", price: 0, image: "c6.jpeg" },
+  { id: 101, name: "Pintura ", price: 0, image: "c7.jpeg" },
+  { id: 101, name: "vinilo ", price: 0, image: "c8.jpeg" },
+  { id: 101, name: "Tizas ", price: 0, image: "c9.jpeg" },
+  { id: 101, name: "Ega ", price: 0, image: "c10.jpeg" },
+  { id: 101, name: "Resaltadores ", price: 0, image: "c11.jpeg" },
+  { id: 101, name: "Marcadores ", price: 0, image: "c12.jpeg" },
+  { id: 101, name: "Marcadores ", price: 0, image: "c13.jpeg" },
+  { id: 101, name: "Marcadores ", price: 0, image: "c14.jpeg" },
+  { id: 101, name: "Corrector ", price: 0, image: "c15.jpeg" },
+  { id: 101, name: "Crayones ", price: 0, image: "c16.jpeg" },
+  { id: 101, name: "Corrector liquido ", price: 0, image: "c17.jpeg" },
+  { id: 101, name: "Corrector lapiz ", price: 0, image: "c18.jpeg" },
+  { id: 101, name: "Corrector brocha", price: 0, image: "c19.jpeg" },
+  { id: 101, name: "Mina ", price: 0, image: "c20.jpeg" },
+  { id: 101, name: "Portamina ", price: 0, image: "c21.jpeg" },
+  { id: 101, name: "Micropunta ", price: 0, image: "c22.jpeg" },
+  { id: 101, name: "Lápiz dibujo ", price: 0, image: "c23.jpeg" },
+  { id: 101, name: "Lápiz presto  ", price: 0, image: "c24.jpeg" },
+  { id: 101, name: "Lápiz car ", price: 0, image: "c25.jpeg" },
+  { id: 101, name: "Lápiceros neon ", price: 0, image: "c26.jpeg" },
+  { id: 101, name: "Lapiz mirado 2 ", price: 0, image: "c27.jpeg" },
+  { id: 101, name: "Lapiceros Retractil ", price: 0, image: "c28.jpeg" },
+  { id: 101, name: "Lápiceros en gel ", price: 0, image: "c29.jpeg" },
+  { id: 101, name: "Lapiceros injoy ", price: 0, image: "c30.jpeg" },
+  { id: 101, name: "Marcadores punta ", price: 0, image: "c31.jpeg" },
+  { id: 101, name: "Lapiceros ", price: 0, image: "c32.jpeg" },
+  { id: 101, name: "Marcadores ", price: 0, image: "c33.jpeg" },
+  { id: 101, name: "Marcadores ", price: 0, image: "c34.jpeg" },
+  { id: 101, name: "Marcadores borrable ", price: 0, image: "c35.jpeg" },
+  { id: 101, name: "Marcadores eterna ", price: 0, image: "c36.jpeg" },
+  { id: 101, name: "Marcadores sharpie ", price: 0, image: "c37.jpeg" },
+  { id: 101, name: "Marcadores sharpie ", price: 0, image: "c38.jpeg" },
+  { id: 101, name: "Marcadores offiplus ", price: 0, image: "c39.jpeg" },
+  { id: 101, name: "Cinta doble faz ", price: 0, image: "c40.jpeg" },
+  { id: 101, name: "Resaltadores pastel ", price: 0, image: "c41.jpeg" },
+  { id: 101, name: "Marcadores vinilo ", price: 0, image: "c42.jpeg" },
+  { id: 101, name: "Marcadores económicos ", price: 0, image: "c43.jpeg" },
+  { id: 101, name: "Cinta papel 1/2 ", price: 0, image: "c44.jpeg" },
+  { id: 101, name: "Vinilo pequeño ", price: 0, image: "c45.jpeg" },
+  { id: 101, name: "Plumones punta ", price: 0, image: "c46.jpeg" },
+  { id: 101, name: "Témperas ", price: 0, image: "c47.jpeg" },
+  { id: 101, name: "Témperas ", price: 0, image: "c48.jpeg" },
+  { id: 101, name: "Témperas ", price: 0, image: "c49.jpeg" },
+  { id: 101, name: "Témperas parchesitos ", price: 0, image: "c50.jpeg" },
+  { id: 101, name: "Vinilo grande ", price: 0, image: "c51.jpeg" },
+  { id: 101, name: "Lápices colores ", price: 0, image: "c52.jpeg" },
+  { id: 101, name: "Lápices colores ", price: 0, image: "c53.jpeg" },
+  { id: 101, name: "Lápices colores ", price: 0, image: "c54.jpeg" },
+  { id: 101, name: "Lápices colores ", price: 0, image: "c55.jpeg" },
+  { id: 101, name: "Lápices colores ", price: 0, image: "c56.jpeg" },
+  { id: 101, name: "Lápices colores ", price: 0, image: "c57.jpeg" },
+  { id: 101, name: "Lápices colores ", price: 0, image: "c58.jpeg" },
+  { id: 101, name: "Lápices colores ", price: 0, image: "c59.jpeg" },
+  { id: 101, name: "Lápices colores ", price: 0, image: "c60.jpeg" },
 ];
 
 const sacoProductsContainer = document.getElementById("sacoProducts");
@@ -435,43 +448,78 @@ showCamisas();
 showMugs();
 showPapeleria();
 
-/* Formateando price de los precios para el . */
-
-const productCard = document.createElement("div");
-productCard.className = "productCard";
-productCard.innerHTML = `
-  <img src="imagenes/papeleria/${product.image}" alt="${product.name}">
-  <h3>${product.name}</h3>
-  <p>Precio: $${formatPrice(product.price)}</p>
-  <div class="productDetails" id="details-${product.id}">
-  </div>
-`;
-
-function formatPrice(priceInCents) {
-  const priceInDollars = priceInCents / 100;
-  // Formatear el precio con tres dígitos después del punto decimal
-  return priceInDollars.toFixed(3);
-}
-
-//Editar productos
-function actualizarPrecio(productIndex) {
-  const inputElement = document.getElementById(
-    `input_precio_producto_${productIndex}`
-  );
-  const precioElement = document.getElementById(
-    `precio_producto_${productIndex}`
-  );
-
-  if (inputElement.value) {
-    papeleria[productIndex - 1].price = parseFloat(inputElement.value).toFixed(
-      2
-    );
-    precioElement.textContent = inputElement.value;
-  }
-}
-
 // Función para cargar los productos en la sección de papelería
 
 /*****************************************************************++++ */
-/* Funcion para actualizar precio */
+function editarPrecio(indice) {
+  // Obtener el nuevo precio ingresado por el usuario
+  const nuevoPrecio = parseFloat(
+    document.getElementsByClassName("input_precio")[indice].value
+  );
 
+  if (!isNaN(nuevoPrecio)) {
+    // Verificar que el valor ingresado sea un número válido
+    // Actualizar el precio en la página
+    const precioElement = document.getElementsByClassName("precio")[indice];
+    precioElement.textContent = nuevoPrecio.toFixed(3); // Mostrar el nuevo precio con tres dígitos decimales
+
+    // También podrías considerar actualizar el precio en tu base de datos o sistema backend en este punto
+
+    // Limpiar el campo de entrada
+    document.getElementsByClassName("input_precio")[indice].value = "";
+  } else {
+    alert("Por favor ingresa un valor numérico válido.");
+  }
+}
+
+//Aumentar la imagen tamaño completo no tocar
+document.addEventListener("DOMContentLoaded", function () {
+  const allProductImages = document.querySelectorAll(".productCard img");
+
+  allProductImages.forEach((image) => {
+    image.addEventListener("click", function () {
+      // Crea un contenedor para la imagen ampliada y la "x" de cerrar
+      const imageContainer = document.createElement("div");
+      imageContainer.style.position = "fixed";
+      imageContainer.style.top = "0";
+      imageContainer.style.left = "0";
+      imageContainer.style.width = "100%";
+      imageContainer.style.height = "100%";
+      imageContainer.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
+      imageContainer.style.display = "flex";
+      imageContainer.style.justifyContent = "center";
+      imageContainer.style.alignItems = "center";
+      imageContainer.style.zIndex = "9999";
+
+      // Crea la imagen ampliada
+      const zoomedImage = document.createElement("img");
+      zoomedImage.src = image.src;
+      zoomedImage.style.width = "450vw"; // Anchura al 100% del viewport
+      zoomedImage.style.height = "auto"; // Altura se ajustará proporcionalmente
+      zoomedImage.style.maxHeight = "100vh"; // Altura máxima del 90% del viewport
+      zoomedImage.style.objectFit = "contain";
+
+      // Crea la "x" de cerrar
+      const closeButton = document.createElement("span");
+      closeButton.innerHTML = "X";
+      closeButton.style.position = "absolute";
+      closeButton.style.top = "20px";
+      closeButton.style.right = "20px";
+      closeButton.style.fontSize = "30px";
+      closeButton.style.color = "red";
+      closeButton.style.cursor = "pointer";
+
+      // Agrega la imagen ampliada y la "x" de cerrar al contenedor
+      imageContainer.appendChild(zoomedImage);
+      imageContainer.appendChild(closeButton);
+
+      // Agrega el contenedor al cuerpo del documento
+      document.body.appendChild(imageContainer);
+
+      // Cierra la imagen ampliada al hacer clic en la "x"
+      closeButton.addEventListener("click", function () {
+        document.body.removeChild(imageContainer);
+      });
+    });
+  });
+});
