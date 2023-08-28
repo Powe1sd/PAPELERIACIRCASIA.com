@@ -549,15 +549,15 @@ document.addEventListener("DOMContentLoaded", function () {
       zoomedImage.style.width = "auto"; // Anchura al 100% del viewport
       zoomedImage.style.height = "auto"; // Altura se ajustará proporcionalmente
       zoomedImage.style.maxHeight = "90vh"; // Altura máxima del 90% del viewport
-      zoomedImage.style.objectFit = "contain";
+      zoomedImage.style.objectFit = "auto";
 
       // Crea la "x" de cerrar
       const closeButton = document.createElement("span");
       closeButton.innerHTML = "X";
       closeButton.style.position = "absolute";
-      closeButton.style.top = "20px";
-      closeButton.style.right = "20px";
-      closeButton.style.fontSize = "30px";
+      closeButton.style.top = "30px";
+      closeButton.style.right = "10px";
+      closeButton.style.fontSize = "40px";
       closeButton.style.color = "red";
       closeButton.style.cursor = "pointer";
 
