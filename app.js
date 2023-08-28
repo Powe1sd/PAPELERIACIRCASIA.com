@@ -494,7 +494,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Crea la imagen ampliada
       const zoomedImage = document.createElement("img");
       zoomedImage.src = image.src;
-      zoomedImage.style.width = "450vw"; // Anchura al 100% del viewport
+      zoomedImage.style.width = "100vw"; // Anchura al 100% del viewport
       zoomedImage.style.height = "auto"; // Altura se ajustará proporcionalmente
       zoomedImage.style.maxHeight = "100vh"; // Altura máxima del 90% del viewport
       zoomedImage.style.objectFit = "contain";
