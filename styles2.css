@@ -1,115 +1,80 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #0056b3;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  border: 2px solid black;
-}
-
-.iniciar {
-  color: white;
-  margin-top: -25px;
 }
 
 .login-container {
-  background-color: black;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 200px;
-  width: 90%;
-  max-width: 450px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
   text-align: center;
-  border: 3px solid red;
 }
 
 .login-container h1 {
-  font-size: 60px;
+  font-size: 28px;
   margin-bottom: 20px;
+  color: #333;
 }
 
 .login-container label {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-weight: bold;
+  color: #666;
 }
 
 .login-container input[type="text"],
 .login-container input[type="password"] {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 2px solid red;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
   border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
 }
 
 .seleccionar {
-  font-size: 20px;
-  color: white;
+  font-size: 18px;
+  color: blue;
 }
 
 .selector {
-  font-size: 33px;
-  color: black;
-  background-color: white;
+  font-size: 24px;
+  color: #fff;
+  background-color: #333;
+  padding: 8px 16px;
+  border-radius: 4px;
 }
 
 .pa {
   border: 0;
   padding: 0;
-  color: white;
-  background-color: black;
-  font-size: 24px;
+  color: #333;
+  background-color: transparent;
+  font-size: 18px;
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
   margin-top: 15px;
 }
 
 .boton2 {
-  font-size: 20px;
-  background-color: white;
-  border: 1px solid red;
-  color: black;
-  margin-top: 15px;
+  font-size: 18px;
+  background-color: #333;
+  border: none;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-/* Media Query para dispositivos con ancho máximo de 768px */
-@media screen and (max-width: 768px) {
-  .login-container {
-    padding: 800px;
-    width: 800%;
-    border: 1px solid green;
-  }
-
-  .login-container h1 {
-    font-size: 18px;
-  }
-
-  .login-container input[type="text"],
-  .login-container input[type="password"] {
-    padding: 18px;
-  }
-
-  .seleccionar {
-    font-size: 20px;
-  }
-
-  .selector {
-    font-size: 24px;
-  }
-
-  .pa {
-    font-size: 20px;
-  }
-
-  .boton2 {
-    font-size: 25px;
-  }
+.boton2:hover {
+  background-color: #222;
 }
