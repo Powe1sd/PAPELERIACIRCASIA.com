@@ -4,9 +4,9 @@
 /* ******************************************************************************** */
 
 const sacos = [
-  { id: 101, name: "Desayuno Sorpresa", price: "21.000", image: "piñauno.jpg" },
-  { id: 102, name: "Desayuno sorpresa", price: "0", image: "piñados.jpeg" },
-  { id: 103, name: "Ancheta", price: "0", image: "piñatres.jpeg" },
+  { id: 101, name: "Desayuno Sorpresa", price: "25.000", image: "piñauno.jpg" },
+  { id: 102, name: "Desayuno sorpresa", price: "20.000", image: "piñados.jpeg" },
+  { id: 103, name: "Ancheta", price: "20.000", image: "piñatres.jpeg" },
   { id: 104, name: "Ancheta", price: "0", image: "piñacuatro.jpeg" },
   { id: 105, name: "Ancheta", price: "0", image: "piñacinco.jpeg" },
   { id: 106, name: "Ancheta", price: "0", image: "piñaseis.jpeg" },
