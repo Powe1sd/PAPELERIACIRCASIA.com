@@ -97,7 +97,8 @@ header {
 #sacoProducts,
 #camisaProducts,
 #mugsProducts,
-#papeleriaProducts {
+#papeleriaProducts,
+#bisuteriaProducts {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -161,7 +162,8 @@ header {
 .toallas,
 .indumentaria,
 .chaleco,
-.papeleria {
+.papeleria,
+.bisuteria {
   text-align: center;
   color: white;
   background-color: green;

@@ -1,31 +1,21 @@
-/* Estilos para el diseño básico de la tienda */
+/* Estilos para el diseño básico de la tienda 222 */
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: white;
+  background-color: aliceblue;
 }
-
-.admin {
-  position: fixed;
-  width: 19%;
-  height: 10%;
-  font-size: 30px;
+.admin-icon {
+  align-self: flex-end; /* Posición en la esquina superior derecha */
+  margin: 10px; /* Espaciado del icono con respecto al borde */
+  font-size: 60px;
+  color: black;
+  width: 20px;
   cursor: pointer;
-  background-color: blue;
-  color: gold;
-  margin-top: -101px;
+  margin-top: -2px;
 }
 
 /* Destello  */
-.destello {
-  animation: colorChange 3s infinite;
-  -webkit-animation: colorChange 3s infinite;
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 35px;
-  background-color: blue;
-}
 
 @keyframes colorChange {
   0%,
@@ -40,21 +30,61 @@ body {
 .texto {
   margin: 0;
   padding: 0%;
-  color: white;
-  background-color: blue;
+  color: black;
+  background-color: white;
   font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 header {
-  background-color: blue;
-  color: white;
+  color: black;
   padding: 10px;
+  font-size: 25px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: -30px;
 }
 
 /* BOTON PRODUCTOS */
+.productos-desplegables {
+  /* Tus estilos actuales */
+}
+
+.enlaces-importantes button {
+  /* Tus estilos actuales */
+}
+
+.enlaces-importantes button:hover {
+  /* Tus estilos actuales */
+}
+
+.enlaces-importantes a {
+  /* Tus estilos actuales */
+}
+
+/* Seccion de contacto lo ultimo */
+.seccion-contacto {
+  /* Tus estilos actuales */
+}
+
+.contacto-info h2 {
+  /* Tus estilos actuales */
+}
+
+.enlaces-importantes a {
+  /* Tus estilos actuales */
+}
+
+.enlaces-importantes a:hover {
+  /* Tus estilos actuales */
+}
+
+.secpro {
+  /* Tus estilos actuales */
+}
+
+.produdes {
+  /* Tus estilos actuales */
+}
 
 /* Estilos para los contenedores de productos */
 #sacoProducts,
@@ -70,13 +100,13 @@ header {
 
 /* Ajustar el estilo de las CATEGORIAS*/
 .productCard {
-  border: 1px solid green;
+  border: 1px solid forestgreen;
   border-radius: 4px;
   padding: 10px;
   margin: 10px;
   width: calc(33.33% - 20px);
   box-sizing: border-box;
-  background-color: azure;
+  background-color: white;
   text-align: center;
   display: flex;
   /*Cambioimportante*/
@@ -110,10 +140,7 @@ header {
   font-size: 11spx;
 }
 
-/* No me funciona esta linea */
 .product-price {
-  color: #007bff;
-  font-size: 20px;
 }
 
 .despliegue {
@@ -137,14 +164,6 @@ header {
   border-bottom: 2px solid red;
 }
 
-/* Agrega margen superior al encabezado h2 de la sección de peluches */
-.peluches h2 {
-  margin-top: 20px; /* Ajusta el valor según lo necesites */
-}
-
-/* Otros estilos que ya tienes en tu archivo CSS */
-/* ... */
-
 /* Estilos para la barra lateral */
 #sidebar {
   /* Tus estilos actuales */
@@ -158,8 +177,8 @@ header {
 
 .whatsapp-btn {
   position: fixed;
-  font-size: 20px;
-  width: 40%;
+  font-size: 30px;
+  width: 33%;
   border-radius: 2px;
   background-color: green;
   color: white;
@@ -174,6 +193,10 @@ header {
   -moz-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   -o-transform: translate(0, 0);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
 }
 
 /* Ajustar el botón en pantallas más pequeñas */
@@ -193,7 +216,7 @@ header {
   padding: 10px 20px;
   background-color: green;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   /*Aquíyaestásestableciendoeltamaño*/
   text-decoration: none;
   border-radius: 5px;
@@ -240,6 +263,55 @@ header {
 /* Estilos para el botón de despliegue */
 
 /* Estilos para el menú desplegable */
+.productos-desplegables {
+  display: none;
+  top: -400px;
+  left: 0;
+  background-color: #007bff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+  width: 200px;
+  z-index: 1;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  margin-top: 65px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+  -webkit-transition: opacity 0.3s ease, transform 0.3s ease;
+  -moz-transition: opacity 0.3s ease, transform 0.3s ease;
+  -ms-transition: opacity 0.3s ease, transform 0.3s ease;
+  -o-transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.despliegue:hover .productos-desplegables {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+}
+
+.productos-desplegables a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+}
 
 .productos-desplegables a:hover {
   background-color: #007bff;
@@ -265,6 +337,10 @@ header {
   width: 20%;
   cursor: pointer;
   position: fixed;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 /* Ocultar secciones */
@@ -273,87 +349,90 @@ header {
   display: none;
 }
 
-/* Despñiegue dos */
+#productos-btn3 {
+  width: 50%;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  font-size: 20px;
+  padding: 10px 20px;
+  height: 11%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transition: all 0.3s ease-in-out;
+  /*Agregamosunatransiciónsuave*/
+  border-radius: 20px;
+}
 
-/* Estilos para el botón de despliegue */
+#productos-btn3:hover {
+  background-color: #44cc44;
+  transform: translateX(-50%) translateY(-2px) rotateX(5deg);
+}
 
 /* Estilos para el menú desplegable */
+.productos-desplegables2 {
+  display: none;
+  position: fixed;
+  top: 66px;
+  left: 45%;
+  transform: translateX(-50%);
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+  width: 200px;
+  z-index: 1000;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  -webkit-transition: opacity 0.3s ease, transform 0.3s ease;
+  -moz-transition: opacity 0.3s ease, transform 0.3s ease;
+  -ms-transition: opacity 0.3s ease, transform 0.3s ease;
+  -o-transition: opacity 0.3s ease, transform 0.3s ease;
+}
 
-/* Estilos para el botón de despliegue */
+.despliegue2:hover .productos-desplegables2 {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
 
-/* Estilos para el menú desplegable */
+/* Ajustar el tiempo de espera antes de ocultar */
+.productos-desplegables2:hover {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+}
+
+.productos-desplegables2 a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+}
+
+.productos-desplegables2 a:hover {
+  background-color: #007bff;
+}
 
 /* Seccion de imaje para ampliar la imagen*/
 
-/* EFECTO DE ZOOM PARA LAS IMAGENES HACIENDO CLICK */
-.categorias {
-  background-color: white;
-  color: white;
-}
-
-/* Edicion de precios */
-.productSection {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.productCard img {
-  max-width: 80%;
-  height: auto;
-  object-fit: cover;
-  width: 700px; /* Ajusta el ancho deseado */
-  height: 300px;
-  object-fit: cover;
-}
-
-.productCard img {
-  max-width: 104%; /* El ancho máximo será el 100% del contenedor */
-  height: 102%; /* La altura se ajustará automáticamente */
-  object-fit: cover;
-}
-
-/* Ajusta los estilos según tus preferencias */
-
-.input_precio {
-  width: 100%;
-  height: auto;
-  border: 1px solid red;
-  color: black;
-}
-.actualizar_btn {
-  margin-top: 20px;
-}
-
-/****************************** seccion peluches columnas de 3 */
-.productCard {
-  display: inline-block;
-  width: calc(
-    33.33% - 30px
-  ); /* El 20px es para dar espacio entre las columnas */
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  text-align: center;
-}
-
-.productCard img {
-  max-width: 80%;
-  height: auto;
-  object-fit: cover;
-  width: 700px; /* Ajusta el ancho deseado */
-  height: 300px;
-  object-fit: cover;
-
-
-
-
-}
-
-/* Ajusta los estilos de acuerdo a tu diseño */
-
-@media screen and (max-width: 768px) {
-  /* Cambia el diseño para dispositivos móviles si es necesario */
-  .productCard {
-    width: 100%;
-  }
-}
+/* Cerrar la imagen con una x al ampliarce  */
+/* Estilo para el botón de cerrar */
