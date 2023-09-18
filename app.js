@@ -4,16 +4,16 @@
 //Nota la seccion de saco es la seccion de desayunos y tambien anchetas
 /* ******************************************************************************** */
 const sacos = [
-  { id: 101, name: "Desayuno Sorpresa", price: "50.000", image: "piñauno.jpg" },
+  { id: 101, name: "Desayuno Sorpresa", price: "20.000", image: "piñauno.jpg" },
   {
     id: 102,
     name: "Desayuno Sorpresa",
-    price: "23.000",
+    price: "25.000",
     image: "piñados.jpeg",
   },
-  { id: 103, name: "Ancheta", price: "20.000", image: "piñatres.jpeg" },
-  { id: 104, name: "Ancheta", price: "0", image: "piñacuatro.jpeg" },
-  { id: 105, name: "Ancheta", price: "0", image: "piñacinco.jpeg" },
+  { id: 103, name: "Ancheta", price: "12.000", image: "piñatres.jpeg" },
+  { id: 104, name: "Ancheta", price: "15.000", image: "piñacuatro.jpeg" },
+  { id: 105, name: "Ancheta", price: "33.000", image: "piñacinco.jpeg" },
   { id: 106, name: "Ancheta", price: "0", image: "piñaseis.jpeg" },
   { id: 107, name: "Desayuno Sorpresa", price: "0", image: "piñasiete.jpeg" },
   { id: 109, name: "Desayuno Sorpresa", price: "0", image: "piñaocho.jpeg" },
@@ -252,7 +252,6 @@ const papeleria = [
   { id: 427, name: "Portamina", price: 0, image: "c21.jpeg" },
 
   //Lapiceros
-
   { id: 454, name: "Lapicero neón", price: "0", image: "la39.jpg" },
   {
     id: 434,
