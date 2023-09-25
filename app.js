@@ -4,7 +4,7 @@
 //Nota la seccion de saco es la seccion de desayunos y tambien anchetas
 /* ******************************************************************************** */
 const sacos = [
-  { id: 101, name: "Desayuno Sorpresa", price: "25.000", image: "piñauno.jpg" },
+  { id: 101, name: "Desayuno Sorpresa", price: "30.000", image: "piñauno.jpg" },
   {
     id: 102,
     name: "Desayuno Sorpresa",
