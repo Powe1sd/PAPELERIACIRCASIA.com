@@ -4,18 +4,18 @@
 //Nota la seccion de saco es la seccion de desayunos y tambien anchetas
 /* ******************************************************************************** */
 const sacos = [
-  { id: 101, name: "Desayuno Sorpresa", price: "30.000", image: "piñauno.jpg" },
+  { id: 101, name: "Desayuno Sorpresa", price: "45.000", image: "piñauno.jpg" },
   {
     id: 102,
     name: "Desayuno Sorpresa",
-    price: "25.000",
+    price: "7.500",
     image: "piñados.jpeg",
   },
-  { id: 103, name: "Ancheta", price: "12.000", image: "piñatres.jpeg" },
-  { id: 104, name: "Ancheta", price: "15.000", image: "piñacuatro.jpeg" },
-  { id: 105, name: "Ancheta", price: "33.000", image: "piñacinco.jpeg" },
-  { id: 106, name: "Ancheta", price: "0", image: "piñaseis.jpeg" },
-  { id: 107, name: "Desayuno Sorpresa", price: "0", image: "piñasiete.jpeg" },
+  { id: 103, name: "Ancheta", price: "22.000", image: "piñatres.jpeg" },
+  { id: 104, name: "Ancheta", price: "32.000", image: "piñacuatro.jpeg" },
+  { id: 105, name: "Ancheta", price: "28.000", image: "piñacinco.jpeg" },
+  { id: 106, name: "Ancheta", price: "45.000", image: "piñaseis.jpeg" },
+  { id: 107, name: "Desayuno Sorpresa", price: "45.000", image: "piñasiete.jpeg" },
   { id: 109, name: "Desayuno Sorpresa", price: "0", image: "piñaocho.jpeg" },
   { id: 110, name: "Desayuno Sorpresa", price: "0", image: "piñanueve.jpeg" },
   { id: 112, name: "Ancheta", price: "0", image: "piñadies.jpeg" },
@@ -578,6 +578,11 @@ const bisuteria = [
   { id: 504, name: "Peine", price: "0", image: "v142.jpeg" },
   { id: 501, name: "Peineta", price: "0", image: "v139.jpeg" },
 ];
+
+//Termina la seccion de precios
+
+
+
 
 //Agrega al contenedor
 const sacoProductsContainer = document.getElementById("sacoProducts");
