@@ -194,7 +194,7 @@ header {
   /*Alturadelbotón*/
   right: 20px;
   /*Alineadoaladerecha*/
-  bottom: 20px;
+  bottom: 30px;
   /*CambiaelcolordefondoaverdedeWhatsApp*/
   border-radius: 50%;
   /*Haceelbotóncircular*/ /*Colordelícono*/
@@ -213,8 +213,8 @@ header {
 /* Ajustar el botón en pantallas más pequeñas */
 @media (max-width: 768px) {
   .whatsapp-btn {
-    width: 60px; /* Ancho reducido para pantallas pequeñas */
-    height: 60px; /* Altura reducida para pantallas pequeñas */
+    width: 80px; /* Ancho reducido para pantallas pequeñas */
+    height: 50px; /* Altura reducida para pantallas pequeñas */
     font-size: 30px; /* Tamaño de fuente reducido para pantallas pequeñas */
     right: 10px; /* Alineado a la derecha */
     bottom: 10px; /* Alineado en la parte inferior */
@@ -230,41 +230,38 @@ header {
   /*Aquíyaestásestableciendoeltamaño*/
   text-decoration: none;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 /* Boton de whasapp 222222222222 */
 .whatsapp-btn-top {
   position: fixed;
   font-size: 40px;
-  /*Tamañodefuente*/
-  width: 80px;
-  /*Anchodelbotón*/
-  height: 80px;
-  /*Alturadelbotón*/
-  right: 20px;
-  /*Alineadoaladerecha*/
-  top: 20px;
-  /*Alineadoenlapartesuperior*/ /*CambiaelcolordefondoaverdedeWhatsApp*/
-  border-radius: 50%;
-  /*Haceelbotóncircular*/ /*Colordelícono*/
-  text-align: center;
-  /*Centraelíconoverticalmente*/
-  line-height: 80px;
-  /*Centraelíconoverticalmente*/
-  z-index: 9999;
+  /*Tamañodefuente*/width: 80px;
+  /*Anchodelbotón*/height: -90px;
+  /*Alturadelbotón*/right: 20px;
+  /*Alineadoaladerecha*/top: 10px;
+  /*Alineadoenlapartesuperior*//*CambiaelcolordefondoaverdedeWhatsApp*/border-radius: 50%;
+  /*Haceelbotóncircular*//*Colordelícono*/text-align: center;
+  /*Centraelíconoverticalmente*/line-height: 80px;
+  /*Centraelíconoverticalmente*/z-index: 9999;
   cursor: pointer;
-  margin-top: -30px;
+  margin-top: -10px;
+
 }
 
 /* Ajustar el botón en pantallas más pequeñas */
 @media (max-width: 768px) {
   .whatsapp-btn-top {
-    width: 60px; /* Ancho reducido para pantallas pequeñas */
-    height: 60px; /* Altura reducida para pantallas pequeñas */
-    font-size: 30px; /* Tamaño de fuente reducido para pantallas pequeñas */
-    right: 10px; /* Alineado a la derecha */
+    width: 80px; /* Ancho reducido para pantallas pequeñas */
+    height: 50px; /* Altura reducida para pantallas pequeñas */
+    font-size: 20px; /* Tamaño de fuente reducido para pantallas pequeñas */
+    right: 5px; /* Alineado a la derecha */
     top: 10px; /* Alineado en la parte superior */
-    line-height: 60px; /* Centra el ícono verticalmente */
+    line-height: 70px; /* Centra el ícono verticalmente */
   }
 }
 
