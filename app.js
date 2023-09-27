@@ -727,3 +727,22 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+/* Para que la fecha se actualice cada año */
+function getYear() {
+  return new Date().getFullYear();
+}
+
+// Función para actualizar el año en la página
+function updateYear() {
+  const yearElement = document.getElementById("year");
+  if (yearElement) {
+    yearElement.textContent = `@ ${getYear()}`;
+  }
+}
+
+// Llama a la función para actualizar el año cuando se carga la página
+window.addEventListener("DOMContentLoaded", updateYear);
+
+// Programa una actualización anual
+setInterval(updateYear, 31536000000);

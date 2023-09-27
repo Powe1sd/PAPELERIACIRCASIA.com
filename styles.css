@@ -183,49 +183,52 @@ header {
 }
 
 /* Estilos para el botón de WhatsApp */
-
+/* Estilo del botón de WhatsApp */
 .whatsapp-btn {
   position: fixed;
-  font-size: 30px;
-  width: 33%;
-  border-radius: 2px;
-  background-color: green;
-  color: white;
-  padding: 2px 2px;
-  right: 0;
-  bottom: -2px;
-  /*Ajustaladistanciadesdeabajosegúntuspreferencias*/
-  transform: translate(0, 0);
+  font-size: 90px;
+  /*Tamañodefuentemásgrande*/
+  width: 80px;
+  /*Anchodelbotón*/
+  height: 80px;
+  /*Alturadelbotón*/
+  right: 20px;
+  /*Alineadoaladerecha*/
+  bottom: 20px;
+  /*CambiaelcolordefondoaverdedeWhatsApp*/
+  border-radius: 50%;
+  /*Haceelbotóncircular*/ /*Colordelícono*/
+  text-align: center;
+  /*Centraelíconoverticalmente*/
+  line-height: 80px;
+  /*Centraelíconoverticalmente*/
   z-index: 9999;
   cursor: pointer;
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  -o-transform: translate(0, 0);
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: white;
 }
 
 /* Ajustar el botón en pantallas más pequeñas */
 @media (max-width: 768px) {
   .whatsapp-btn {
-    width: 80%;
-    width: 60%;
-    height: 8%;
-    bottom: 50px;
-    padding: 2px 2px;
-    bottom: -4px;
+    width: 60px; /* Ancho reducido para pantallas pequeñas */
+    height: 60px; /* Altura reducida para pantallas pequeñas */
+    font-size: 30px; /* Tamaño de fuente reducido para pantallas pequeñas */
+    right: 10px; /* Alineado a la derecha */
+    bottom: 10px; /* Alineado en la parte inferior */
+    line-height: 60px; /* Centra el ícono verticalmente */
   }
 }
 
 .whatsapp-link {
   display: inline-block;
   padding: 10px 20px;
-  background-color: green;
-  color: white;
-  font-size: 20px;
+  color: green;
+
+  font-size: 70px;
   /*Aquíyaestásestableciendoeltamaño*/
   text-decoration: none;
   border-radius: 5px;
@@ -235,8 +238,42 @@ header {
   -o-border-radius: 5px;
 }
 
-.whatsapp-link:hover {
-  background-color: darkgreen;
+/* Boton de whasapp 222222222222 */
+.whatsapp-btn-top {
+  position: fixed;
+  font-size: 40px;
+  /*Tamañodefuente*/
+  width: 80px;
+  /*Anchodelbotón*/
+  height: 80px;
+  /*Alturadelbotón*/
+  right: 20px;
+  /*Alineadoaladerecha*/
+  top: 20px;
+  /*Alineadoenlapartesuperior*/
+  /*CambiaelcolordefondoaverdedeWhatsApp*/
+  border-radius: 50%;
+  /*Haceelbotóncircular*/
+  /*Colordelícono*/
+  text-align: center;
+  /*Centraelíconoverticalmente*/
+  line-height: 80px;
+  /*Centraelíconoverticalmente*/
+  z-index: 9999;
+  cursor: pointer;
+  margin-top: 440px;
+}
+
+/* Ajustar el botón en pantallas más pequeñas */
+@media (max-width: 768px) {
+  .whatsapp-btn-top {
+    width: 60px; /* Ancho reducido para pantallas pequeñas */
+    height: 60px; /* Altura reducida para pantallas pequeñas */
+    font-size: 30px; /* Tamaño de fuente reducido para pantallas pequeñas */
+    right: 10px; /* Alineado a la derecha */
+    top: 10px; /* Alineado en la parte superior */
+    line-height: 60px; /* Centra el ícono verticalmente */
+  }
 }
 
 /* Seccion de contacto lo ultimo */
@@ -501,3 +538,5 @@ header {
 
 /* Cerrar la imagen con una x al ampliarce  */
 /* Estilo para el botón de cerrar */
+
+/* BOTON WHASTAPP 2 */
