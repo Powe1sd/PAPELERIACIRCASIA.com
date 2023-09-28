@@ -7,11 +7,11 @@ const sacos = [
   { id: 101, name: "Desayuno Sorpresa", price: "45.000", image: "piñauno.jpg" },
   {
     id: 102,
-    name: "Desayuno Sorpresa",
+    name: "vasito magico Dulcero",
     price: "7.500",
     image: "piñados.jpeg",
   },
-  { id: 103, name: "Ancheta", price: "22.000", image: "piñatres.jpeg" },
+  { id: 103, name: "posillo Mugs", price: "22.000", image: "piñatres.jpeg" },
   { id: 104, name: "Ancheta", price: "32.000", image: "piñacuatro.jpeg" },
   { id: 105, name: "Ancheta", price: "28.000", image: "piñacinco.jpeg" },
   { id: 106, name: "Ancheta", price: "45.000", image: "piñaseis.jpeg" },
@@ -33,13 +33,18 @@ const sacos = [
   { id: 124, name: "Ancheta", price: "55.000", image: "piñaventitres.png" },
   { id: 125, name: "Ancheta", price: "45.000", image: "ancheta.jpeg" },
   { id: 126, name: "Ancheta", price: "50.000", image: "ancheta2.jpeg" },
-  // Agrega más sacos aquí
+
+ 
+
+
+  
+  // Agrega más anchetas aquí
 ];
 
 //SECCION DE PELUCHES  DONDE SE EXPORTAN IMAGENES Y PRECIOS
 const camisas = [
-  { id: 200, name: "Peluche", price: "0", image: "peluuno.jpg" },
-  { id: 201, name: "Peluche", price: "0", image: "peludos.jpg" },
+  { id: 200, name: "llavero gato", price: "8.000", image: "peluuno.jpg" },
+  { id: 201, name: "Stich mediano", price: "46.000", image: "peludos.jpg" },
   { id: 202, name: "Peluche", price: "0", image: "pelutres.jpg" },
   { id: 203, name: "Peluche", price: "0", image: "pelucuaatro.jpg" },
   { id: 204, name: "Peluche", price: "0", image: "pelucinco.jpg" },
