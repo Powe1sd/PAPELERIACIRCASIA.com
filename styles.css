@@ -15,6 +15,40 @@ body {
   margin-top: -2px;
 }
 
+
+.container {
+  text-align: center; /* Centra el contenido horizontalmente */
+  font-size: 50px;
+}
+
+.pape2{
+text-align: center;
+font-size: 40px;
+color: red;
+
+
+}
+
+.rosado {
+  color: pink; /* Cambia el color del texto a rosa */
+ 
+}
+
+.verde {
+  color: green; /* Cambia el color del texto a verde */
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* Destello  */
 .destello {
   animation: colorChange 5s infinite;
