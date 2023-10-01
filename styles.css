@@ -15,39 +15,24 @@ body {
   margin-top: -2px;
 }
 
-
 .container {
   text-align: center; /* Centra el contenido horizontalmente */
   font-size: 30px;
 }
 
-.pape2{
-text-align: center;
-font-size: 40px;
-color: red;
-
-
+.pape2 {
+  text-align: center;
+  font-size: 40px;
+  color: red;
 }
 
 .rosado {
   color: pink; /* Cambia el color del texto a rosa */
- 
 }
 
 .verde {
   color: green; /* Cambia el color del texto a verde */
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* Destello  */
 .destello {
@@ -224,7 +209,7 @@ header {
   /*Tamañodefuentemásgrande*/
   width: 80px;
   /*Anchodelbotón*/
-  height: 80px;
+  height: 90px;
   /*Alturadelbotón*/
   right: 20px;
   /*Alineadoaladerecha*/
@@ -252,7 +237,9 @@ header {
     font-size: 30px; /* Tamaño de fuente reducido para pantallas pequeñas */
     right: 10px; /* Alineado a la derecha */
     bottom: 10px; /* Alineado en la parte inferior */
-    line-height: 60px; /* Centra el ícono verticalmente */
+    line-height: 60px; /*
+     Centra el ícono verticalmente */
+    margin-top: 2000px;
   }
 }
 
@@ -264,6 +251,7 @@ header {
   /*Aquíyaestásestableciendoeltamaño*/
   text-decoration: none;
   border-radius: 5px;
+  margin-top: -70px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -274,17 +262,24 @@ header {
 .whatsapp-btn-top {
   position: fixed;
   font-size: 40px;
-  /*Tamañodefuente*/width: 80px;
-  /*Anchodelbotón*/height: -90px;
-  /*Alturadelbotón*/right: 20px;
-  /*Alineadoaladerecha*/top: 10px;
-  /*Alineadoenlapartesuperior*//*CambiaelcolordefondoaverdedeWhatsApp*/border-radius: 50%;
-  /*Haceelbotóncircular*//*Colordelícono*/text-align: center;
-  /*Centraelíconoverticalmente*/line-height: 80px;
-  /*Centraelíconoverticalmente*/z-index: 9999;
+  /*Tamañodefuente*/
+  width: 80px;
+  /*Anchodelbotón*/
+  height: -90px;
+  /*Alturadelbotón*/
+  right: 20px;
+  /*Alineadoaladerecha*/
+  top: 10px;
+  /*Alineadoenlapartesuperior*/ /*CambiaelcolordefondoaverdedeWhatsApp*/
+  border-radius: 50%;
+  /*Haceelbotóncircular*/ /*Colordelícono*/
+  text-align: center;
+  /*Centraelíconoverticalmente*/
+  line-height: 80px;
+  /*Centraelíconoverticalmente*/
+  z-index: 9999;
   cursor: pointer;
   margin-top: -10px;
-
 }
 
 /* Ajustar el botón en pantallas más pequeñas */
