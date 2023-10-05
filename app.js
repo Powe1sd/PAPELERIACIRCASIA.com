@@ -15,9 +15,24 @@ const sacos = [
   { id: 104, name: "Ancheta", price: "32.000", image: "piñacuatro.jpeg" },
   { id: 105, name: "Ancheta", price: "28.000", image: "piñacinco.jpeg" },
   { id: 106, name: "Ancheta", price: "45.000", image: "piñaseis.jpeg" },
-  { id: 107, name: "Desayuno Sorpresa", price: "45.000", image: "piñasiete.jpeg" },
-  { id: 109, name: "Desayuno Sorpresa", price: "62.000", image: "piñaocho.jpeg" },
-  { id: 110, name: "Desayuno Sorpresa", price: "55.000", image: "piñanueve.jpeg" },
+  {
+    id: 107,
+    name: "Desayuno Sorpresa",
+    price: "45.000",
+    image: "piñasiete.jpeg",
+  },
+  {
+    id: 109,
+    name: "Desayuno Sorpresa",
+    price: "62.000",
+    image: "piñaocho.jpeg",
+  },
+  {
+    id: 110,
+    name: "Desayuno Sorpresa",
+    price: "55.000",
+    image: "piñanueve.jpeg",
+  },
   { id: 112, name: "Ancheta", price: "72.000", image: "piñadies.jpeg" },
   { id: 113, name: "Globo", price: "12.000", image: "piñadoce.jpeg" },
   { id: 114, name: "Desayuno", price: "100.000", image: "piñatrece.jpeg" },
@@ -34,10 +49,6 @@ const sacos = [
   { id: 125, name: "Ancheta", price: "45.000", image: "ancheta.jpeg" },
   { id: 126, name: "Ancheta", price: "50.000", image: "ancheta2.jpeg" },
 
- 
-
-
-  
   // Agrega más anchetas aquí
 ];
 
@@ -45,7 +56,7 @@ const sacos = [
 const camisas = [
   { id: 200, name: "llavero gato", price: "8.000", image: "peluuno.jpg" },
   { id: 201, name: "Stich mediano", price: "46.000", image: "peludos.jpg" },
-  { id: 202, name: "Peluche", price: "0", image: "pelutres.jpg" },
+  { id: 202, name: "Peluche", price: "30.000", image: "pelutres.jpg" },
   { id: 203, name: "Peluche", price: "0", image: "pelucuaatro.jpg" },
   { id: 204, name: "Peluche", price: "0", image: "pelucinco.jpg" },
   { id: 205, name: "Peluche", price: "0", image: "peluseis.jpg" },
@@ -585,9 +596,6 @@ const bisuteria = [
 ];
 
 //Termina la seccion de precios
-
-
-
 
 //Agrega al contenedor
 const sacoProductsContainer = document.getElementById("sacoProducts");
