@@ -57,7 +57,7 @@ const camisas = [
   { id: 200, name: "llavero gato", price: "8.000", image: "peluuno.jpg" },
   { id: 201, name: "Stich mediano", price: "46.000", image: "peludos.jpg" },
   { id: 202, name: "Peluche", price: "30.000", image: "pelutres.jpg" },
-  { id: 203, name: "Peluche", price: "0", image: "pelucuaatro.jpg" },
+  { id: 203, name: "Peluche", price: "30.000", image: "pelucuaatro.jpg" },
   { id: 204, name: "Peluche", price: "0", image: "pelucinco.jpg" },
   { id: 205, name: "Peluche", price: "0", image: "peluseis.jpg" },
   { id: 206, name: "Peluche", price: "0", image: "pelusiete.jpg" },
