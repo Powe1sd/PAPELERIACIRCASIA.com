@@ -105,9 +105,9 @@ const camisas = [
 
 // SECCION PIÑATERIA DONDE SE EXPORTAN IMAGENES Y PRECIOS
 const mugs = [
-  { id: 300, name: "Caja decoración", price: "5.000", image: "puno.jpg" },
-  { id: 301, name: "Caja decoración", price: "0", image: "pdos.jpg" },
-  { id: 302, name: "Velas toda ocasión", price: "0", image: "ptres.jpg" },
+  { id: 300, name: "Caja decoración", price: "4.000", image: "puno.jpg" },
+  { id: 301, name: "Caja decoración", price: "3.800", image: "pdos.jpg" },
+  { id: 302, name: "Velas toda ocasión", price: "2.000", image: "ptres.jpg" },
   { id: 303, name: "Velas abuelitos", price: "0", image: "pcuatro.jpg" },
   { id: 304, name: "Globos toda ocasión", price: "0", image: "pcinco.jpg" },
   { id: 305, name: "Almohada", price: "0", image: "pseis.jpg" },
