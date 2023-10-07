@@ -176,6 +176,7 @@ const mugs = [
   { id: 348, name: "Caja Guacal", price: "14.000", image: "p51.jpg" },
   { id: 349, name: "Caja cervecera", price: "12.000", image: "p52.jpg" },
   { id: 350, name: "Caja mediana", price: "7.000", image: "p53.jpg" },
+  { id: 350, name: "Caja mediana", price: "7.000", image: "p53.jpg" },
   { id: 351, name: "Bandeja pequeña", price: "8.000", image: "p55.jpg" },
   { id: 352, name: "Decoración", price: "0", image: "p56.jpg" },
   { id: 353, name: "Bombas R12", price: "0", image: "p57.jpg" },
