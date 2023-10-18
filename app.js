@@ -244,8 +244,8 @@ const papeleria = [
   //Resmas
   { id: 409, name: "Resma carta blanca", price: "23.000", image: "pa23.jpeg" },
   { id: 410, name: "Resma blanca oficio", price: "30.000", image: "pa24.jpeg" },
-  { id: 411, name: "Acetatos", price: "0", image: "pa25.jpeg" },
-  { id: 415, name: "Resma papel", price: "0", image: "pa34.jpeg" },
+  { id: 411, name: "Acetatos", price: "800-1.100", image: "pa25.jpeg" },
+  { id: 415, name: "Resma papel ecologico", price: "23.000", image: "pa34.jpeg" },
 
   //Blogs
   {
