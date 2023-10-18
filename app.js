@@ -178,7 +178,7 @@ const mugs = [
   { id: 350, name: "Caja mediana", price: "7.000", image: "p53.jpg" },
   { id: 350, name: "Caja mediana", price: "7.000", image: "p53.jpg" },
   { id: 351, name: "Bandeja pequeña", price: "8.000", image: "p55.jpg" },
-  { id: 352, name: "Decoración", price: "0", image: "p56.jpg" },
+  { id: 352, name: "Decoración", price: "6.000", image: "p56.jpg" },
   { id: 353, name: "Bombas R12", price: "0", image: "p57.jpg" },
   { id: 354, name: "Decoración", price: "0", image: "p58.jpg" },
   { id: 355, name: "Decoración", price: "0", image: "p59.jpg" },
