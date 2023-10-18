@@ -223,27 +223,27 @@ const papeleria = [
   { id: 406, name: "Carpeta plastica", price: "4.600", image: "pa8.jpeg" },
   { id: 407, name: "Carpeta plastica", price: "3.000", image: "pa9.jpeg" },
   { id: 408, name: "Carpeta plastica", price: "3.800", image: "pa22.jpeg" },
-  { id: 429, name: "Carpeta sobre plastica", price: "0", image: "pa56.jpeg" },
-  { id: 430, name: "Carpeta plastica", price: "0", image: "pa54.jpeg" },
+  { id: 429, name: "Carpeta sobre plastica", price: "1.600", image: "pa56.jpeg" },
+  { id: 430, name: "Carpeta plastica bisel", price: "1.800", image: "pa54.jpeg" },
 
   //Cuadernos
-  { id: 413, name: "Cuaderno argollado 100", price: "0", image: "pa28.jpeg" },
-  { id: 416, name: "Cuaderno argollado 100", price: "0", image: "pa35.jpeg" },
-  { id: 417, name: "Cuaderno grapados 50", price: "0", image: "pa36.jpeg" },
-  { id: 421, name: "Cuaderno argollado", price: "0", image: "pa43.jpeg" },
-  { id: 422, name: "Cuaderno cocido", price: "0", image: "pa44.jpeg" },
-  { id: 424, name: "Cuaderno 7 materias", price: "0", image: "pa46.jpeg" },
-  { id: 425, name: "Cuaderno 5 materias", price: "0", image: "pa47.jpeg" },
+  
+  { id: 416, name: "Cuaderno argollado 100", price: "5.500", image: "pa35.jpeg" },
+  { id: 417, name: "Cuaderno grapados 50", price: "2.000", image: "pa36.jpeg" },
+  { id: 421, name: "Cuaderno argollado", price: "7.500", image: "pa43.jpeg" },
+  { id: 422, name: "Cuaderno cocido", price: "4.000", image: "pa44.jpeg" },
+  { id: 424, name: "Cuaderno 7 materias", price: "20.000", image: "pa46.jpeg" },
+  { id: 425, name: "Cuaderno 5 materias", price: "18.000", image: "pa47.jpeg" },
   {
     id: 412,
-    name: "cuaderno 80 hojas cuadriculado",
-    price: "0",
+    name: "hojas repuesto 80 hojas cuadriculado",
+    price: "6.800",
     image: "pa27.jpeg",
   },
 
   //Resmas
-  { id: 409, name: "Resma carta blanca", price: "0", image: "pa23.jpeg" },
-  { id: 410, name: "Resma blanca oficio", price: "0", image: "pa24.jpeg" },
+  { id: 409, name: "Resma carta blanca", price: "23.000", image: "pa23.jpeg" },
+  { id: 410, name: "Resma blanca oficio", price: "30.000", image: "pa24.jpeg" },
   { id: 411, name: "Acetatos", price: "0", image: "pa25.jpeg" },
   { id: 415, name: "Resma papel", price: "0", image: "pa34.jpeg" },
 
