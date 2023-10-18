@@ -335,18 +335,17 @@ const papeleria = [
   { id: 483, name: "Resaltadores pastel", price: "14.000", image: "la74.jpg" },
 
   //Embases
-  { id: 466, name: "Embase vidrio", price: "0", image: "V1.jpeg" },
-  { id: 467, name: "Embase vidrio redondo", price: "0", image: "V2.jpeg" },
-  { id: 468, name: "Embase vidrio plano", price: "0", image: "V3.jpeg" },
-  { id: 469, name: "Embase de vidrio mini", price: "0", image: "V4.jpeg" },
+  { id: 466, name: "Embase vidrio", price: "4.000", image: "V1.jpeg" },
+  { id: 467, name: "Embase vidrio redondo", price: "2.800", image: "V2.jpeg" },
+  { id: 468, name: "Embase vidrio plano", price: "2.500", image: "V3.jpeg" },
+  { id: 469, name: "Embase de vidrio mini", price: "4.000", image: "V4.jpeg" },
 
   //Baterias
-  { id: 490, name: "Batería D", price: "0", image: "v25.jpeg" },
-  { id: 491, name: "Pegante", price: "0", image: "v26.jpeg" },
-  { id: 492, name: "Batería AA", price: "0", image: "v27.jpeg" },
-  { id: 493, name: "Batería AA", price: "0", image: "v28.jpeg" },
-  { id: 489, name: "Batería AA", price: "0", image: "v27.jpeg" },
-  { id: 495, name: "Batería", price: "0", image: "v32.jpeg" },
+  { id: 490, name: "Batería D", price: "6.800", image: "v25.jpeg" },
+  { id: 491, name: "Pegante", price: "1.000", image: "v26.jpeg" },
+  { id: 492, name: "Batería AA", price: "4.200", image: "v27.jpeg" },
+  { id: 493, name: "Batería AA", price: "6.000", image: "v28.jpeg" },
+  { id: 495, name: "Batería 9 v", price: "3.900", image: "v32.jpeg" },
 
   //Seccion de tigeras
   { id: 524, name: "Tijeras", price: "0", image: "v62.jpeg" },
