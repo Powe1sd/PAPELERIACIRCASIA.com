@@ -319,30 +319,20 @@ const papeleria = [
   { id: 444, name: "Lápiz carboncillo", price: "6.400", image: "la28.jpg" },
   { id: 445, name: "Lápiz", price: "2.000", image: "la29.jpg" },
   { id: 448, name: "Lápiz presto azul", price: "1.200", image: "la33.jpg" },
-  { id: 449, name: "Lápiz mirado 2", price: "0", image: "la34.jpg" },
-  { id: 429, name: "Lápiz dibujo", price: "0", image: "c23.jpeg" },
-  { id: 430, name: "Lápiz presto", price: "0", image: "c24.jpeg" },
-  { id: 431, name: "Lápiz car", price: "0", image: "c25.jpeg" },
-  { id: 432, name: "Lápices neon", price: "0", image: "c26.jpeg" },
-  { id: 433, name: "Lapiz mirado 2", price: "0", image: "c27.jpeg" },
+  { id: 449, name: "Lápiz mirado 2", price: "1.000", image: "la34.jpg" },
 
   //Colores
-  { id: 499, name: "Colores", price: "0", image: "la96.jpg" },
-  { id: 500, name: "Colores", price: "0", image: "la96.jpg" },
-  { id: 501, name: "Colores", price: "0", image: "la97.jpg" },
-  { id: 502, name: "Colores", price: "0", image: "la99.jpg" },
-  { id: 503, name: "Colores", price: "0", image: "la200.jpg" },
-  { id: 504, name: "Colores", price: "0", image: "la202.jpg" },
-  { id: 505, name: "Colores Norma", price: "0", image: "la203.jpg" },
+  { id: 504, name: "Colores jumbo", price: "18.000", image: "la202.jpg" },
+
 
   //Borrador
-  { id: 469, name: "Borrador negro", price: "0", image: "la57.jpg" },
-  { id: 473, name: "Borrador rotal", price: "0", image: "la62.jpg" },
+  { id: 469, name: "Borrador negro", price: "1.000", image: "la57.jpg" },
+  { id: 473, name: "Borrador rotal", price: "800", image: "la62.jpg" },
 
   //Plumones
-  { id: 476, name: "Plumones pincel", price: "0", image: "la65.jpg" },
-  { id: 479, name: "Plumones surtidos", price: "0", image: "la68.jpg" },
-  { id: 483, name: "Resaltadores pastel", price: "0", image: "la74.jpg" },
+  { id: 476, name: "Plumones pincel", price: "17.000", image: "la65.jpg" },
+  { id: 479, name: "Plumones surtidos", price: "11.000", image: "la68.jpg" },
+  { id: 483, name: "Resaltadores pastel", price: "14.000", image: "la74.jpg" },
 
   //Embases
   { id: 466, name: "Embase vidrio", price: "0", image: "V1.jpeg" },
