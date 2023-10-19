@@ -537,13 +537,13 @@ const papeleria = [
   {
     id: 574,
     name: "Tenedor grande desechable",
-    price: "0",
+    price: "7.000",
     image: "v112.jpeg",
   },
-  { id: 575, name: "Tenedor pequeño", price: "0", image: "v113.jpeg" },
-  { id: 576, name: "Cuchara grande", price: "0", image: "v114.jpeg" },
-  { id: 577, name: "Torteros fiesta", price: "0", image: "v115.jpeg" },
-  { id: 578, name: "Copa flauta", price: "0", image: "v116.jpeg" },
+  { id: 575, name: "Tenedor pequeño", price: "3.800", image: "v113.jpeg" },
+  { id: 576, name: "Cuchara grande", price: "7.000", image: "v114.jpeg" },
+  { id: 577, name: "Torteros fiesta", price: "2.000", image: "v115.jpeg" },
+  { id: 578, name: "Copa flauta", price: "16.500", image: "v116.jpeg" },
 ];
 
 const bisuteria = [
