@@ -117,7 +117,8 @@ header {
 #camisaProducts,
 #mugsProducts,
 #papeleriaProducts,
-#bisuteriaProducts {
+#bisuteriaProducts,
+#desechablesProducts {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -182,7 +183,8 @@ header {
 .indumentaria,
 .chaleco,
 .papeleria,
-.bisuteria {
+.bisuteria,
+.desechables {
   text-align: center;
   color: white;
   background-color: green;
@@ -223,10 +225,6 @@ header {
   /*Centraelíconoverticalmente*/
   z-index: 9999;
   cursor: pointer;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
 }
 
 /* Ajustar el botón en pantallas más pequeñas */
@@ -345,10 +343,6 @@ header {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  -webkit-transform: translateY(-10px);
-  -moz-transform: translateY(-10px);
-  -ms-transform: translateY(-10px);
-  -o-transform: translateY(-10px);
   -webkit-transition: opacity 0.3s ease, transform 0.3s ease;
   -moz-transition: opacity 0.3s ease, transform 0.3s ease;
   -ms-transition: opacity 0.3s ease, transform 0.3s ease;

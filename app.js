@@ -198,7 +198,6 @@ const mugs = [
   { id: 369, name: "cajita pequeña", price: "2.500", image: "p76.jpg" },
   { id: 370, name: "bandeja madera", price: "12.000", image: "p77.jpg" },
   { id: 483, name: "Vasos personajes", price: "2.000", image: "v121.jpeg" },
-
 ];
 
 //SECCION DE PAPELERIA, DONDE SE IMPORTAN IMAGENES Y PRECIOS
@@ -208,10 +207,20 @@ const papeleria = [
   { id: 401, name: "Carpeta colgante", price: "2.200", image: "pa3.jpeg" },
   { id: 402, name: "Carpeta color café", price: "800", image: "pa4.jpeg" },
   { id: 403, name: "Carpeta Blanca", price: "800", image: "pa5.jpeg" },
-  { id: 484, name: "Rollo térmico 80 * 60", price: "6.300", image: "v122.jpeg" },
+  {
+    id: 484,
+    name: "Rollo térmico 80 * 60",
+    price: "6.300",
+    image: "v122.jpeg",
+  },
   { id: 485, name: "Rollos precios", price: "1.600", image: "v123.jpeg" },
   { id: 486, name: "Palos balso", price: "1.200-2.000", image: "v124.jpeg" },
-  { id: 487, name: "Láminas de icopor", price: "5.200-10.300", image: "v125.jpeg" },
+  {
+    id: 487,
+    name: "Láminas de icopor",
+    price: "5.200-10.300",
+    image: "v125.jpeg",
+  },
 
   {
     id: 404,
@@ -223,12 +232,27 @@ const papeleria = [
   { id: 406, name: "Carpeta plastica", price: "4.600", image: "pa8.jpeg" },
   { id: 407, name: "Carpeta plastica", price: "3.000", image: "pa9.jpeg" },
   { id: 408, name: "Carpeta plastica", price: "3.800", image: "pa22.jpeg" },
-  { id: 429, name: "Carpeta sobre plastica", price: "1.600", image: "pa56.jpeg" },
-  { id: 430, name: "Carpeta plastica bisel", price: "1.800", image: "pa54.jpeg" },
+  {
+    id: 429,
+    name: "Carpeta sobre plastica",
+    price: "1.600",
+    image: "pa56.jpeg",
+  },
+  {
+    id: 430,
+    name: "Carpeta plastica bisel",
+    price: "1.800",
+    image: "pa54.jpeg",
+  },
 
   //Cuadernos
-  
-  { id: 416, name: "Cuaderno argollado 100", price: "5.500", image: "pa35.jpeg" },
+
+  {
+    id: 416,
+    name: "Cuaderno argollado 100",
+    price: "5.500",
+    image: "pa35.jpeg",
+  },
   { id: 417, name: "Cuaderno grapados 50", price: "2.000", image: "pa36.jpeg" },
   { id: 421, name: "Cuaderno argollado", price: "7.500", image: "pa43.jpeg" },
   { id: 422, name: "Cuaderno cocido", price: "4.000", image: "pa44.jpeg" },
@@ -245,7 +269,12 @@ const papeleria = [
   { id: 409, name: "Resma carta blanca", price: "23.000", image: "pa23.jpeg" },
   { id: 410, name: "Resma blanca oficio", price: "30.000", image: "pa24.jpeg" },
   { id: 411, name: "Acetatos", price: "800-1.100", image: "pa25.jpeg" },
-  { id: 415, name: "Resma papel ecologico", price: "23.000", image: "pa34.jpeg" },
+  {
+    id: 415,
+    name: "Resma papel ecologico",
+    price: "23.000",
+    image: "pa34.jpeg",
+  },
 
   //Blogs
   {
@@ -273,8 +302,18 @@ const papeleria = [
   { id: 465, name: "Marcador borrable", price: "2.000", image: "la53.jpg" },
   { id: 459, name: "Marcadores punta fina", price: "3.300", image: "la46.jpg" },
   { id: 466, name: "Marcadores Sharpie", price: "2.000", image: "la54.jpg" },
-  { id: 467, name: "Marcadores metalizados", price: "4.000", image: "la55.jpg" },
-  { id: 458, name: "Tinta para marcadores", price: "10.000", image: "la45.jpg" },
+  {
+    id: 467,
+    name: "Marcadores metalizados",
+    price: "4.000",
+    image: "la55.jpg",
+  },
+  {
+    id: 458,
+    name: "Tinta para marcadores",
+    price: "10.000",
+    image: "la45.jpg",
+  },
   { id: 448, name: "Marcadores vinilo", price: "14.000", image: "c42.jpeg" },
   { id: 449, name: "Marcadores económicos", price: "3.500", image: "c43.jpeg" },
 
@@ -324,7 +363,6 @@ const papeleria = [
   //Colores
   { id: 504, name: "Colores jumbo", price: "18.000", image: "la202.jpg" },
 
-
   //Borrador
   { id: 469, name: "Borrador negro", price: "1.000", image: "la57.jpg" },
   { id: 473, name: "Borrador rotal", price: "800", image: "la62.jpg" },
@@ -353,7 +391,12 @@ const papeleria = [
   { id: 516, name: "Tijeras zig zag", price: "3.000", image: "v54.jpeg" },
   { id: 517, name: "Bisturí metálico", price: "3.500", image: "v55.jpeg" },
   { id: 518, name: "Bisturí mediano", price: "1.600", image: "v56.jpeg" },
-  { id: 519, name: "Tijera de doblar pequeña", price: "2.000", image: "v57.jpeg" },
+  {
+    id: 519,
+    name: "Tijera de doblar pequeña",
+    price: "2.000",
+    image: "v57.jpeg",
+  },
   { id: 520, name: "Tijera grande", price: "8.500", image: "v58.jpeg" },
   { id: 521, name: "Bisturí pequeño", price: "1.000", image: "v59.jpeg" },
   { id: 522, name: "Bisturí precisión", price: "5.000", image: "v60.jpeg" },
@@ -437,18 +480,33 @@ const papeleria = [
   { id: 505, name: "Regla plantilla", price: "3.500", image: "v144.jpeg" },
   { id: 506, name: "Diccionario inglés", price: "4.000", image: "v145.jpeg" },
   { id: 507, name: "Diccionario español", price: "4.500", image: "v146.jpeg" },
-  { id: 508, name: "Gancho Legajador plástico", price: "4.000", image: "v147.jpeg" },
+  {
+    id: 508,
+    name: "Gancho Legajador plástico",
+    price: "4.000",
+    image: "v147.jpeg",
+  },
   { id: 509, name: "Sopa letras", price: "2.600", image: "v148.jpeg" },
   { id: 514, name: "Gancho legajador", price: "3.600", image: "v153.jpeg" },
   { id: 515, name: "Clip estándar", price: "1.200", image: "v154.jpeg" },
   { id: 516, name: "Chinche", price: "1.300", image: "v155.jpeg" },
   { id: 517, name: "Talonario rifa", price: "2.000", image: "v156.jpeg" },
-  { id: 518, name: "Talonario Autocopiante", price: "2.600", image: "v159.jpeg" },
+  {
+    id: 518,
+    name: "Talonario Autocopiante",
+    price: "2.600",
+    image: "v159.jpeg",
+  },
   { id: 519, name: "Push pins", price: "4.000", image: "v160.jpeg" },
   { id: 520, name: "Pegastic", price: "6.500-3.600", image: "v161.jpeg" },
   { id: 521, name: "Pegante en barra", price: "2.600", image: "v162.jpeg" },
   { id: 522, name: "Escarcha liquida", price: "3.200", image: "v163.jpeg" },
-  { id: 523, name: "Silicona barra gruesa", price: "1.300", image: "v164.jpeg" },
+  {
+    id: 523,
+    name: "Silicona barra gruesa",
+    price: "1.300",
+    image: "v164.jpeg",
+  },
   { id: 524, name: "Recibo caja menor", price: "3.000", image: "v165.jpeg" },
   { id: 525, name: "Silicona barra delgada", price: "700", image: "v166.jpeg" },
   { id: 526, name: "Ega * 150g", price: "2.800", image: "v167.jpeg" },
@@ -466,7 +524,12 @@ const papeleria = [
   { id: 490, name: "Tacos periódico", price: "1.200", image: "la83.jpg" },
   { id: 491, name: "Tacos adhesivas", price: "2.800", image: "la84.jpg" },
   { id: 492, name: "Vinilo grande", price: "2.700", image: "la85.jpg" },
-  { id: 506, name: "Resaltadores de colores", price: "2.000", image: "la204.jpg" },
+  {
+    id: 506,
+    name: "Resaltadores de colores",
+    price: "2.000",
+    image: "la204.jpg",
+  },
   { id: 507, name: "Plastilina pequeña", price: "1.500", image: "c1.jpeg" },
   { id: 508, name: "Foamy moldeable", price: "7.000", image: "c2.jpeg" },
   { id: 509, name: "Plastilina mediana", price: "2.400", image: "c3.jpeg" },
@@ -485,8 +548,18 @@ const papeleria = [
   { id: 527, name: "Humectador dactilar", price: "3.500", image: "v65.jpeg" },
   { id: 528, name: "Huellero", price: "3.800", image: "v66.jpeg" },
   { id: 529, name: "Metros costura", price: "2.000", image: "v67.jpeg" },
-  { id: 530, name: "Cuchilla bisturí pequeña", price: "1.300", image: "v68.jpeg" },
-  { id: 531, name: "Calculadora científica", price: "18.000", image: "v69.jpeg" },
+  {
+    id: 530,
+    name: "Cuchilla bisturí pequeña",
+    price: "1.300",
+    image: "v68.jpeg",
+  },
+  {
+    id: 531,
+    name: "Calculadora científica",
+    price: "18.000",
+    image: "v69.jpeg",
+  },
   { id: 532, name: "Calculadora mediana", price: "16.000", image: "v70.jpeg" },
   { id: 533, name: "Nailon 10 libras", price: "3.000", image: "v71.jpeg" },
   { id: 534, name: "Compás", price: "3.000", image: "v72.jpeg" },
@@ -501,12 +574,37 @@ const papeleria = [
   { id: 543, name: "Canicas", price: "3.000", image: "v81.jpeg" },
   { id: 544, name: "Encendedor Linterna", price: "1.000", image: "v82.jpeg" },
   { id: 545, name: "Cortaúñas pequeño", price: "2.500", image: "v83.jpeg" },
-  { id: 546, name: "Pistola silicona pequeña", price: "8.000", image: "v84.jpeg" },
-  { id: 547, name: "Pistola silicona grande", price: "17.000", image: "v85.jpeg" },
+  {
+    id: 546,
+    name: "Pistola silicona pequeña",
+    price: "8.000",
+    image: "v84.jpeg",
+  },
+  {
+    id: 547,
+    name: "Pistola silicona grande",
+    price: "17.000",
+    image: "v85.jpeg",
+  },
   { id: 548, name: "Encendedor clipper", price: "3.600", image: "v86.jpeg" },
-  { id: 549, name: "Grinder grande 2 pisos", price: "5.000", image: "v87.jpeg" },
-  { id: 550, name: "Grinder grande 3 pisos", price: "6.500", image: "v88.jpeg" },
-  { id: 551, name: "Grinder pequeño 3 pisos", price: "5.500", image: "v89.jpeg" },
+  {
+    id: 549,
+    name: "Grinder grande 2 pisos",
+    price: "5.000",
+    image: "v87.jpeg",
+  },
+  {
+    id: 550,
+    name: "Grinder grande 3 pisos",
+    price: "6.500",
+    image: "v88.jpeg",
+  },
+  {
+    id: 551,
+    name: "Grinder pequeño 3 pisos",
+    price: "5.500",
+    image: "v89.jpeg",
+  },
   { id: 552, name: "Encendedor", price: "1.800", image: "v90.jpeg" },
   { id: 553, name: "Grinder pequeño", price: "3.800", image: "v91.jpeg" },
   { id: 554, name: "Smoking clásico", price: "2.000", image: "v92.jpeg" },
@@ -521,7 +619,12 @@ const papeleria = [
   { id: 563, name: "Pipa curva", price: "17.000", image: "v101.jpeg" },
   { id: 564, name: "Piercings", price: "2.000", image: "v102.jpeg" },
   { id: 565, name: "Vasos color 3.3", price: "2.600", image: "v103.jpeg" },
-  { id: 566, name: "Vasos traslúcidos 7 onz", price: "2.700", image: "v104.jpeg" },
+  {
+    id: 566,
+    name: "Vasos traslúcidos 7 onz",
+    price: "2.700",
+    image: "v104.jpeg",
+  },
   { id: 567, name: "Pipa matancera", price: "2.000", image: "v105.jpeg" },
   { id: 568, name: "Plato pando", price: "2.800", image: "v106.jpeg" },
   { id: 569, name: "Plato hondo 12 onzas", price: "3.500", image: "v107.jpeg" },
@@ -549,6 +652,7 @@ const papeleria = [
 const bisuteria = [
   { id: 497, name: "Joyas casuales", price: "0", image: "v135.jpeg" },
   { id: 490, name: "Joyas casuales", price: "0", image: "v128.jpeg" },
+
   { id: 491, name: "Joyas casuales", price: "0", image: "v129.jpeg" },
   { id: 492, name: "Joyas casuales", price: "0", image: "v130.jpeg" },
   { id: 493, name: "Joyas casuales", price: "0", image: "v131.jpeg" },
@@ -560,6 +664,12 @@ const bisuteria = [
   { id: 500, name: "Peineta", price: "0", image: "v138.jpeg" },
   { id: 504, name: "Peine", price: "0", image: "v142.jpeg" },
   { id: 501, name: "Peineta", price: "0", image: "v139.jpeg" },
+];
+
+const desechables = [
+  { id: 497, name: "Joyas casuales", price: "0", image: "v135.jpeg" },
+  { id: 490, name: "Joyas casuales", price: "0", image: "v128.jpeg" },
+  { id: 490, name: "Joyas casuales", price: "0", image: "v128.jpeg" },
 ];
 
 //Termina la seccion de precios
@@ -575,6 +685,10 @@ const indumentariaProductsContainer = document.getElementById(
 const chalecoProductsContainer = document.getElementById("chalecoProducts");
 const papeleriaProductsContainer = document.getElementById("papeleriaProducts");
 const bisuteriaProductsContainer = document.getElementById("bisuteriaProducts");
+const desechablesProductsContainer = document.getElementById(
+  "desechablesProducts"
+);
+
 // Función para mostrar los productos de sacos
 function showSacos() {
   sacoProductsContainer.innerHTML = "";
@@ -616,6 +730,14 @@ function showbisueria() {
   });
 }
 
+function showdesechables() {
+  desechablesProductsContainer.innerHTML = "";
+  desechables.forEach((product) => {
+    const productCard = createProductCard(product);
+    desechablesProductsContainer.appendChild(productCard);
+  });
+}
+
 //RUTA DE LAS IMAGENES
 function createProductCard(product) {
   const productCard = document.createElement("div");
@@ -637,6 +759,8 @@ showCamisas();
 showMugs();
 showPapeleria();
 showbisueria();
+showdesechables();
+
 // Función para cargar los productos en la sección de papelería
 
 /*****************************************************************++++ */
