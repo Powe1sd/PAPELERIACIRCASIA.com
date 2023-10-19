@@ -555,8 +555,7 @@ const bisuteria = [
   { id: 494, name: "Reloj", price: "75.000", image: "v132.jpeg" },
   { id: 495, name: "Reloj", price: "75.000", image: "v133.jpeg" },
   { id: 496, name: "Joyas casuales", price: "27.000", image: "v134.jpeg" },
-  { id: 498, name: "Peineta", price: "0", image: "v136.jpeg" },
-  { id: 499, name: "Joyas casuales", price: "0", image: "v137.jpeg" },
+  { id: 499, name: "Joyas casuales", price: "40.000", image: "v137.jpeg" },
 ];
 
 //Termina la seccion de precios
