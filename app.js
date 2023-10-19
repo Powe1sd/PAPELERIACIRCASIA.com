@@ -547,19 +547,16 @@ const papeleria = [
 ];
 
 const bisuteria = [
-  { id: 497, name: "Joyas casuales", price: "0", image: "v135.jpeg" },
-  { id: 490, name: "Joyas casuales", price: "0", image: "v128.jpeg" },
-  { id: 491, name: "Joyas casuales", price: "0", image: "v129.jpeg" },
-  { id: 492, name: "Joyas casuales", price: "0", image: "v130.jpeg" },
-  { id: 493, name: "Joyas casuales", price: "0", image: "v131.jpeg" },
-  { id: 494, name: "Reloj", price: "0", image: "v132.jpeg" },
-  { id: 495, name: "Reloj", price: "0", image: "v133.jpeg" },
-  { id: 496, name: "Joyas casuales", price: "0", image: "v134.jpeg" },
+  { id: 497, name: "Joyas casuales", price: "7.000", image: "v135.jpeg" },
+  { id: 490, name: "Joyas casuales", price: "41.000", image: "v128.jpeg" },
+  { id: 491, name: "Joyas casuales", price: "40.000", image: "v129.jpeg" },
+  { id: 492, name: "Joyas casuales", price: "17.000", image: "v130.jpeg" },
+  { id: 493, name: "Joyas casuales", price: "20.000", image: "v131.jpeg" },
+  { id: 494, name: "Reloj", price: "75.000", image: "v132.jpeg" },
+  { id: 495, name: "Reloj", price: "75.000", image: "v133.jpeg" },
+  { id: 496, name: "Joyas casuales", price: "27.000", image: "v134.jpeg" },
   { id: 498, name: "Peineta", price: "0", image: "v136.jpeg" },
   { id: 499, name: "Joyas casuales", price: "0", image: "v137.jpeg" },
-  { id: 500, name: "Peineta", price: "0", image: "v138.jpeg" },
-  { id: 504, name: "Peine", price: "0", image: "v142.jpeg" },
-  { id: 501, name: "Peineta", price: "0", image: "v139.jpeg" },
 ];
 
 //Termina la seccion de precios
