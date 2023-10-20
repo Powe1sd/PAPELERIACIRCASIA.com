@@ -676,7 +676,7 @@ const bisuteria = [
 ];
 
 const desechables = [
-  { id: 497, name: "Joyas casuales", price: "0", image: "v135.jpeg" },
+  { id: 497, name: "logo", price: "0", image: "logo.png" },
   { id: 490, name: "Joyas casuales", price: "0", image: "v128.jpeg" },
   { id: 490, name: "Joyas casuales", price: "0", image: "v128.jpeg" },
 ];
