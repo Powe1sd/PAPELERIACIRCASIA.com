@@ -676,9 +676,12 @@ const bisuteria = [
 ];
 
 const desechables = [
-  { id: 497, name: "logo", price: "0", image: "logo.png" },
-  { id: 490, name: "Joyas casuales", price: "0", image: "v128.jpeg" },
-  { id: 490, name: "Joyas casuales", price: "0", image: "v128.jpeg" },
+  /* *********************************************************************************************************************** */
+  /* Nota---------- */
+  /* Para agregar mas imagenes copiar y pegar una linea y cambiar la ruta de la imagen como se muestra en el video. */
+  { id: 497, name: "", price: "0", image: "" },
+  { id: 490, name: "", price: "0", image: "" },
+  { id: 490, name: "", price: "0", image: "" },
 ];
 
 //Termina la seccion de precios
